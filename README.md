@@ -22,6 +22,21 @@ Anschliessend `http://127.0.0.1:8765` öffnen. Das Projekt kann unverändert auf
 
 Der Lernstand wird ausschliesslich in `localStorage` dieses Browsers gespeichert. Andere Geräte oder Browser erhalten ihn nicht. Direkt geöffnete Dateien können je nach Browser eingeschränkte Speicherung haben. Ein Hinweis erscheint, falls die Speicherung nicht funktioniert.
 
+## Spielrunde und Repetition
+
+Über der Karte stehen drei Modi zur Wahl: **Freies Lernen**, **Spielrunde** und **Repetition**. Themen-, Lernziel- und Suchfilter bestimmen den jeweiligen Kartenpool. Während einer Runde bleibt die Auswahl fest.
+
+- Eine Spielrunde wählt höchstens zehn unterschiedliche Karten zufällig aus. Erst selbst antworten, dann wenden und anhand der Modellantwort einschätzen.
+- «Gewusst» beim ersten Versuch bringt 10 XP, nach einem Fehlversuch 5 XP. Jede dritte gewusste Karte in Folge bringt zusätzlich 5 XP. Pro Karte und lokalem Kalendertag gibt es nur einmal Punkte.
+- «Noch üben» setzt die Serie zurück und reiht die Karte nach bis zu drei anderen Karten wieder ein. Eine Runde endet, wenn alle enthaltenen Karten als gewusst eingeschätzt wurden; das Ergebnis zeigt Punkte, Versuche und beste Serie.
+- Die Repetition wählt höchstens zehn bereits bewertete, fällige Karten. Unsichere Karten kommen zuerst. Nach einer erfolgreichen Wiederholung steigen die Intervalle auf 1, 3, 7, 14 und 30 Tage; danach bleibt es bei 30 Tagen. Vorzeitiges Üben verlängert das Intervall nicht. «Noch üben» setzt es zurück.
+- Vorhandene Bewertungen aus der ersten Version werden übernommen und einmalig sofort zur Repetition angeboten. Neue, unbewertete Karten lernt man zuerst frei oder in einer Spielrunde.
+- Karten mit fehlenden Quellen sind vom Punktespiel und der Repetition ausgeschlossen und bleiben im freien Lernen zugänglich.
+
+Die Bewertung ist eine **Selbsteinschätzung**, keine automatische Prüfung der Antwort. Punkte und Rundenabschluss sind Lernanreize, keine fachliche Zertifizierung. Ein Moduswechsel oder Neuladen beendet die aktuelle Runde; bereits gespeicherte Bewertungen, Termine und XP bleiben erhalten. «Lernstand zurücksetzen» löscht auch XP, Rundenanzahl und Wiederholungstermine. Es werden keine Benachrichtigungen versandt.
+
+Die Spiellogik liegt separat in `learning.js`. Ihre Tests prüfen unter anderem Terminberechnung, frühe Wiederholung, Rücksetzen, Reihenfolge unsicherer Karten und Schutz vor mehrfachen Punkten am selben Tag. `node tests/game-browser.cjs` ergänzt den bestehenden Browsertest um Spiel- und Repetitionsabläufe.
+
 ## Inhalt und Prüfung
 
 Grundlage sind **IMG_0101.pdf** (26 Seiten) und **WhatsApp Image 2026-10-01 at 13.37.25.pdf** (4 Seiten). D und P in den Quellenangaben beziehen sich auf diese PDFs; gezählt wird die PDF-Reihenfolge, nicht die teilweise neu beginnende gedruckte Seitennummer.
