@@ -10,7 +10,7 @@ Eine deutschsprachige Lernkartei mit **112 drehbaren Karten und 14 Lernzielen** 
 python3 -m http.server 8765 --bind 127.0.0.1
 ```
 
-Anschliessend `http://127.0.0.1:8765` öffnen. Das Projekt kann unverändert auf einem statischen Webserver bereitgestellt werden. Es ist nicht automatisch öffentlich veröffentlicht.
+Anschliessend `http://127.0.0.1:8765` öffnen. Das Projekt kann unverändert auf einem statischen Webserver bereitgestellt werden. Die Veröffentlichung erfolgt über GitHub Pages mit `.github/workflows/pages.yml`: Änderungen auf `main` werden geprüft und aus dem Ordner `dist` veröffentlicht.
 
 ## Lernen
 
