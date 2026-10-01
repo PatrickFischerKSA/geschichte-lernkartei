@@ -4,3 +4,6 @@ test-results/
 *.pdf
 .env*
 !/.env.example
+
+public/
+dist/
