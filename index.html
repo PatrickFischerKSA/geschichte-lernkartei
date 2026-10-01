@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="de-CH">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="112 Lernkarten zu Ägypten, Quellenarbeit und ergänzenden Griechenland-Fragen. Mit Modellantworten, Dossierabgleich und Lernzielen.">
+  <title>Geschichte zum Wenden · Lernkartei</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="data.js"></script>
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <a class="skip" href="#study">Zur Lernkarte</a>
+  <header class="masthead">
+    <a class="brand" href="#" aria-label="Geschichte zum Wenden, Start"><span class="mark" aria-hidden="true">↔</span><span>GESCHICHTE<br><b>ZUM WENDEN</b></span></a>
+    <nav aria-label="Ansichten"><button class="nav active" id="study-tab" aria-pressed="true">Lernkarten</button><button class="nav" id="goals-tab" aria-pressed="false">Lernziele & Quellen</button></nav>
+    <span class="edition">REPETITION <span>01 / ANTIKE</span></span>
+  </header>
+  <main>
+    <section id="study-view">
+      <div class="intro"><div><p class="eyebrow">VOM NIL ZUR HOCHKULTUR</p><h1>Erst erinnern.<br><em>Dann wenden.</em></h1><p class="lead">Formuliere deine Antwort. Drehe die Karte um<br class="desktop"> und vergleiche sie mit der Modellantwort.</p></div><div class="intro-note"><span class="big-number">112</span><span>KARTEN · 14 LERNZIELE</span><p>Ägypten, Quellenarbeit und<br>Griechenland als Ergänzung.</p></div></div>
+      <div class="workspace">
+        <button id="filters-toggle" class="mobile-filter" aria-expanded="false" aria-controls="filters">Auswahl & Lernstand <span aria-hidden="true">＋</span></button>
+        <aside class="sidebar" id="filters" aria-label="Kartenauswahl">
+          <div class="section-label"><span>DEIN KARTENSTAPEL</span><span aria-hidden="true">↓</span></div>
+          <label for="search" class="sr-only">Karten durchsuchen</label><input id="search" type="search" placeholder="Frage oder Begriff suchen …" autocomplete="off">
+          <label for="goal-filter">Lernziel</label><select id="goal-filter"><option value="all">Alle Lernziele</option></select>
+          <div id="topic-list" class="topics" aria-label="Themen"></div>
+          <label for="mode">Wiederholen</label><select id="mode"><option value="all">Alle Karten</option><option value="new">Noch nicht bewertet</option><option value="again">Noch üben</option><option value="known">Gewusst</option><option value="notes">Korrekturen & Ergänzungen</option><option value="open">Offene Quellenfragen</option></select>
+          <div class="progress-block"><div><span>Dein Lernstand</span><strong id="progress-text">0 / 112</strong></div><progress id="progress" max="112" value="0" aria-label="Als gewusst markierte Karten"></progress><small>Speicherung nur in diesem Browser.</small><p id="storage-warning" class="warning" hidden>Speicherung nicht verfügbar. Dein Lernstand gilt nur bis zum Schliessen.</p></div>
+          <button id="reset" class="text-button">Lernstand zurücksetzen</button><div id="reset-confirm" hidden><p>Alle Bewertungen dieses Kartensatzes löschen?</p><button id="reset-yes">Zurücksetzen</button> <button id="reset-no">Abbrechen</button></div>
+        </aside>
+        <section class="study" id="study" tabindex="-1" aria-label="Aktuelle Lernkarte">
+          <div class="deck-bar"><p id="deck-count" role="status" aria-live="polite"></p><button id="shuffle" class="text-button">⇄ Mischen</button></div>
+          <div id="card-region">
+            <div class="card-stage" id="card-stage"><article class="card" id="card" aria-label="Lernkarte">
+              <div class="face front" id="front"><div class="card-meta"><span id="topic-label"></span><span id="card-id"></span></div><div class="question-body"><p class="eyebrow">FRAGE</p><h2 id="question"></h2><figure id="question-figure" hidden><img id="question-image" alt=""><figcaption id="image-caption"></figcaption></figure></div><div class="card-bottom"><span id="origin"></span><span aria-hidden="true">↻</span></div></div>
+              <div class="face back" id="back" inert aria-hidden="true"><div class="card-meta"><span>MODELLANTWORT</span><span id="status-label"></span></div><div id="answer" class="answer"></div><aside id="answer-note" class="answer-note" hidden></aside><div class="source"><strong>Zum Nachprüfen</strong><p id="source"></p><div id="external-links"></div></div></div>
+            </article></div>
+            <button id="flip" class="flip-button" aria-controls="card" aria-expanded="false">Antwort aufdecken <span aria-hidden="true">↻</span></button>
+            <div class="rating" id="rating" hidden><button id="again">↺ Noch üben</button><button id="known">✓ Gewusst</button></div>
+            <div class="card-nav"><button id="prev" aria-label="Vorherige Karte">← <span>Zurück</span></button><span id="position"></span><button id="next" aria-label="Nächste Karte"><span>Weiter</span> →</button></div>
+            <p class="keyboard">LEERTASTE wenden <span>·</span> ← → blättern <span>·</span> 1 noch üben <span>·</span> 2 gewusst</p>
+          </div>
+          <div id="empty" class="empty" hidden><span aria-hidden="true">✓</span><h2 id="empty-title">Keine passenden Karten</h2><p id="empty-text">Passe die Auswahl an oder setze die Filter zurück.</p><button id="clear-filters">Alle Karten anzeigen</button></div>
+          <p id="announcement" class="sr-only" role="status" aria-live="polite"></p>
+        </section>
+      </div>
+    </section>
+    <section id="goals-view" hidden aria-labelledby="goals-title"><p class="eyebrow">VOLLSTÄNDIGKEIT & NACHWEISE</p><h1 id="goals-title">Was du können sollst.</h1><p class="lead">Alle erkennbaren Lernziele und Aufgaben der Vorlagen sind zugeordnet. Die Originalfragen der Prüfung fehlen; ihre Teilaufgaben sind aus den Antworten erschlossen.</p><div class="scope-note"><h2>Was ist geprüft?</h2><p><b>D</b> = IMG_0101.pdf, 26 PDF-Seiten. <b>P</b> = WhatsApp Image 2026-10-01 at 13.37.25.pdf, vier Seiten mit Prüfungsantworten. Seitenangaben zählen ab der ersten PDF-Seite, unabhängig von der gedruckten Nummer.</p><p>Übersichtstext, Aufgabenblätter, Bilder und handschriftliche Notizen wurden vollständig gesichtet. Gedruckte Fachtexte bilden die Hauptgrundlage; Schülerantworten sind keine autorisierten Lösungen. Ergänzende Quellen sind auf den betroffenen Karten verlinkt.</p><p>Die Filme selbst, der Originaltext zu Prüfung 4a und ein Griechenland-Dossier liegen nicht vor. Offene Fragen bleiben sichtbar. Die Karte zur Grabkammerfrage enthält deshalb keine vorgetäuschte Filmlösung.</p><div id="status-summary" class="status-summary"></div></div><div id="goal-cards" class="goal-grid"></div><section class="audit-section"><h2>Korrekturen, die beim Lernen wichtig sind</h2><ul><li>Die als «Ani» beschriftete Gerichtsszene entspricht dem <b>Totengericht des Hunefer</b>.</li><li>Hieroglyphen sind ein Mischsystem aus Wort-, Laut- und Deutzeichen, kein reines Alphabet.</li><li>Sirius war im Jahreszyklus ungefähr 70 Tage unsichtbar; er erschien nicht alle 70 Tage neu.</li><li>Rechtliche Eigenständigkeit der Frauen bedeutet keine vollständige Gleichstellung in allen Lebensbereichen.</li><li>Am Totengericht ist das Gleichgewicht mit der Maat entscheidend. Die Quelle stammt nicht nachweislich «aus einer Pyramide».</li><li>Der errechnete Blocktakt ist die Leistung der gesamten Baustelle, keine Bearbeitungszeit eines einzelnen Teams.</li></ul><p><a href="docs/ABDECKUNG.md">Vollständige Aufgaben-Zuordnung</a> · <a href="docs/PRUEFBERICHT.md">Prüfbericht und Grenzen</a> · <a href="cards.json" download>Alle Karten als JSON</a></p></section><section class="audit-section"><h2>Ergänzende Fachquellen</h2><p>Abgerufen am 1. Oktober 2026. Sie dienen der gezielten Ergänzung und Präzisierung; der Kartenumfang folgt den eingereichten Unterlagen.</p><ul id="bibliography"></ul></section></section>
+  </main>
+  <footer><span>Wissen entsteht durch Verknüpfen.</span><span>Ägypten · Quellen · Antike</span></footer>
+  <noscript>Bitte aktiviere JavaScript, um die Lernkarten zu wenden. Alle Fragen und Antworten stehen zusätzlich in der Datei cards.json.</noscript>
+</body>
+</html>

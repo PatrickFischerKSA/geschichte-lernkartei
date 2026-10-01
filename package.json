@@ -1,0 +1,11 @@
+{
+  "name": "geschichte-lernkartei",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Dossiergeprüfte Lernkartei zu Ägypten und Quellenarbeit",
+  "scripts": {
+    "test": "node --test tests/content.test.cjs",
+    "test:browser": "node tests/browser.cjs",
+    "sync": "node scripts/sync.cjs"
+  }
+}

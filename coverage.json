@@ -1,0 +1,779 @@
+[
+  {
+    "id": "L01",
+    "requirement": "Definition, Merkmale, frühe Zentren und Voraussetzungen erklären.",
+    "cards": [
+      "H01",
+      "H02",
+      "H03",
+      "H09",
+      "H11",
+      "G13",
+      "B01",
+      "B13"
+    ]
+  },
+  {
+    "id": "L02",
+    "requirement": "Chancen und Risiken der Nilflut mit technischen und gesellschaftlichen Reaktionen verknüpfen.",
+    "cards": [
+      "H03",
+      "H04",
+      "H05",
+      "H06",
+      "H07",
+      "H08",
+      "H11",
+      "H12",
+      "R02",
+      "B02"
+    ]
+  },
+  {
+    "id": "L03",
+    "requirement": "Entstehung, Funktionsweise und Bedeutung für Verwaltung und Überlieferung erklären.",
+    "cards": [
+      "H07",
+      "S01",
+      "S02",
+      "S03",
+      "S04",
+      "S05",
+      "S06",
+      "S07",
+      "S08",
+      "S09",
+      "W03",
+      "W05"
+    ]
+  },
+  {
+    "id": "L04",
+    "requirement": "Staatsbildung, Arbeitsteilung, soziale Ordnung und Herrschaft des Pharaos erläutern.",
+    "cards": [
+      "H08",
+      "H09",
+      "H10",
+      "H11",
+      "G09",
+      "G10",
+      "G11",
+      "G12",
+      "G13",
+      "G14",
+      "G15",
+      "G16",
+      "G17",
+      "R04",
+      "R08",
+      "B03",
+      "B06",
+      "Q18",
+      "Q20",
+      "W03"
+    ]
+  },
+  {
+    "id": "L05",
+    "requirement": "Stellung der Frau, Ehe, Kinder und Erziehungsgrundsätze differenziert erklären.",
+    "cards": [
+      "G01",
+      "G02",
+      "G03",
+      "G04",
+      "G05",
+      "G06",
+      "Q10",
+      "Q11"
+    ]
+  },
+  {
+    "id": "L06",
+    "requirement": "Maat für Einzelne, Gesellschaft, Herrscher und Totengericht erklären.",
+    "cards": [
+      "H11",
+      "G07",
+      "G08",
+      "G09",
+      "R04",
+      "J06",
+      "J07"
+    ]
+  },
+  {
+    "id": "L07",
+    "requirement": "Schöpfung, Göttergestalten, Herrschaftslegitimation und Religionsvergleich erläutern.",
+    "cards": [
+      "G09",
+      "R01",
+      "R02",
+      "R03",
+      "R04",
+      "R05",
+      "R06",
+      "R07",
+      "R08",
+      "R09",
+      "R10",
+      "R11",
+      "R12",
+      "R13",
+      "R14",
+      "R15",
+      "R16",
+      "R17",
+      "R18",
+      "R19",
+      "R20",
+      "R21",
+      "B07",
+      "W02"
+    ]
+  },
+  {
+    "id": "L08",
+    "requirement": "Jenseitsvorstellungen, Mumifizierung und Vorbereitungen auf das Jenseits erklären.",
+    "cards": [
+      "G08",
+      "R09",
+      "R11",
+      "R12",
+      "R13",
+      "R14",
+      "R15",
+      "R16",
+      "R17",
+      "R18",
+      "R19",
+      "R20",
+      "R21",
+      "J01",
+      "J02",
+      "J03",
+      "J04",
+      "J05",
+      "J06",
+      "J07",
+      "J08",
+      "Q09",
+      "Q12",
+      "Q14",
+      "Q15",
+      "W04"
+    ]
+  },
+  {
+    "id": "L09",
+    "requirement": "Standort, Organisation, Technik, Mythologie, Filmfragen und Rechenaufgabe bearbeiten.",
+    "cards": [
+      "B01",
+      "B02",
+      "B03",
+      "B04",
+      "B05",
+      "B06",
+      "B07",
+      "B08",
+      "B09",
+      "B10",
+      "B11",
+      "B12"
+    ]
+  },
+  {
+    "id": "L10",
+    "requirement": "Beschreibung, Analyse und Interpretation unterscheiden und auf die Bilder anwenden.",
+    "cards": [
+      "G04",
+      "R07",
+      "J07",
+      "Q01",
+      "Q02",
+      "Q03",
+      "Q04",
+      "Q05",
+      "Q06",
+      "Q07",
+      "Q08",
+      "Q09",
+      "Q10",
+      "Q11",
+      "Q12",
+      "Q13",
+      "Q14",
+      "Q15",
+      "Q23",
+      "W02"
+    ]
+  },
+  {
+    "id": "L11",
+    "requirement": "W-Fragen, Absicht, Perspektive und Aussagegrenzen an der Vater-Sohn-Quelle anwenden.",
+    "cards": [
+      "S04",
+      "G05",
+      "G16",
+      "R08",
+      "B09",
+      "Q16",
+      "Q17",
+      "Q18",
+      "Q19",
+      "Q20",
+      "Q21",
+      "Q22",
+      "W02",
+      "W06"
+    ]
+  },
+  {
+    "id": "L12",
+    "requirement": "Alle erkennbaren Teilaufgaben der handschriftlichen Prüfung wiederholen und Fehler vermeiden.",
+    "cards": [
+      "H06",
+      "H11",
+      "H12",
+      "G01",
+      "G02",
+      "G03",
+      "R07",
+      "J01",
+      "J02",
+      "J06",
+      "J07",
+      "J08",
+      "Q10",
+      "Q11",
+      "Q12",
+      "Q13",
+      "Q14",
+      "Q15",
+      "Q16",
+      "Q21",
+      "Q22",
+      "E01",
+      "E02",
+      "E03",
+      "W06"
+    ]
+  },
+  {
+    "id": "L13",
+    "requirement": "Die beiden aus Prüfungsantworten erschlossenen Griechenland-Themen wiederholen; Dossierlücke beachten.",
+    "cards": [
+      "E01",
+      "E02",
+      "E03"
+    ]
+  },
+  {
+    "id": "L14",
+    "requirement": "Fachbegriffe, Zusammenhänge und Quellen in eigenen Worten wiedergeben.",
+    "cards": [
+      "H01",
+      "G11",
+      "R05",
+      "W01",
+      "W02",
+      "W03",
+      "W04",
+      "W05",
+      "W06"
+    ]
+  },
+  {
+    "id": "K1.1",
+    "requirement": "Kapitelaufgabe K1.1 (D 15–16)",
+    "cards": [
+      "H07"
+    ]
+  },
+  {
+    "id": "K1.2",
+    "requirement": "Kapitelaufgabe K1.2 (D 15–16)",
+    "cards": [
+      "H08"
+    ]
+  },
+  {
+    "id": "K1.3",
+    "requirement": "Kapitelaufgabe K1.3 (D 15–16)",
+    "cards": [
+      "S01",
+      "S02",
+      "S03",
+      "S04"
+    ]
+  },
+  {
+    "id": "K1.4",
+    "requirement": "Kapitelaufgabe K1.4 (D 15–16)",
+    "cards": [
+      "S05",
+      "S06",
+      "S07",
+      "S08",
+      "S09"
+    ]
+  },
+  {
+    "id": "K2.1",
+    "requirement": "Kapitelaufgabe K2.1 (D 15–16)",
+    "cards": [
+      "G01",
+      "G02",
+      "G03",
+      "G04"
+    ]
+  },
+  {
+    "id": "K2.2",
+    "requirement": "Kapitelaufgabe K2.2 (D 15–16)",
+    "cards": [
+      "G05",
+      "G06"
+    ]
+  },
+  {
+    "id": "K2.3",
+    "requirement": "Kapitelaufgabe K2.3 (D 15–16)",
+    "cards": [
+      "G10",
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "id": "K2.4",
+    "requirement": "Kapitelaufgabe K2.4 (D 15–16)",
+    "cards": [
+      "G13"
+    ]
+  },
+  {
+    "id": "K3.1",
+    "requirement": "Kapitelaufgabe K3.1 (D 15–16)",
+    "cards": [
+      "R01"
+    ]
+  },
+  {
+    "id": "K3.2",
+    "requirement": "Kapitelaufgabe K3.2 (D 15–16)",
+    "cards": [
+      "R02",
+      "R03"
+    ]
+  },
+  {
+    "id": "K3.3",
+    "requirement": "Kapitelaufgabe K3.3 (D 15–16)",
+    "cards": [
+      "R04"
+    ]
+  },
+  {
+    "id": "K3.4",
+    "requirement": "Kapitelaufgabe K3.4 (D 15–16)",
+    "cards": [
+      "R05",
+      "R06"
+    ]
+  },
+  {
+    "id": "K4.1",
+    "requirement": "Kapitelaufgabe K4.1 (D 15–16)",
+    "cards": [
+      "B02"
+    ]
+  },
+  {
+    "id": "K4.2",
+    "requirement": "Kapitelaufgabe K4.2 (D 15–16)",
+    "cards": [
+      "B01"
+    ]
+  },
+  {
+    "id": "K4.3",
+    "requirement": "Kapitelaufgabe K4.3 (D 15–16)",
+    "cards": [
+      "B10"
+    ]
+  },
+  {
+    "id": "F1",
+    "requirement": "Pyramidenfilm F1 (D 12; F7 = Rechnung)",
+    "cards": [
+      "B03"
+    ]
+  },
+  {
+    "id": "F2",
+    "requirement": "Pyramidenfilm F2 (D 12; F7 = Rechnung)",
+    "cards": [
+      "B07"
+    ]
+  },
+  {
+    "id": "F3",
+    "requirement": "Pyramidenfilm F3 (D 12; F7 = Rechnung)",
+    "cards": [
+      "B04"
+    ]
+  },
+  {
+    "id": "F4",
+    "requirement": "Pyramidenfilm F4 (D 12; F7 = Rechnung)",
+    "cards": [
+      "B08"
+    ]
+  },
+  {
+    "id": "F5",
+    "requirement": "Pyramidenfilm F5 (D 12; F7 = Rechnung)",
+    "cards": [
+      "B01"
+    ]
+  },
+  {
+    "id": "F6",
+    "requirement": "Pyramidenfilm F6 (D 12; F7 = Rechnung)",
+    "cards": [
+      "B09"
+    ]
+  },
+  {
+    "id": "F7",
+    "requirement": "Pyramidenfilm F7 (D 12; F7 = Rechnung)",
+    "cards": [
+      "B11",
+      "B12"
+    ]
+  },
+  {
+    "id": "M1",
+    "requirement": "Mumienfilm M1 (D 25)",
+    "cards": [
+      "J01"
+    ]
+  },
+  {
+    "id": "M2",
+    "requirement": "Mumienfilm M2 (D 25)",
+    "cards": [
+      "J02"
+    ]
+  },
+  {
+    "id": "M3",
+    "requirement": "Mumienfilm M3 (D 25)",
+    "cards": [
+      "J03",
+      "J04",
+      "J05"
+    ]
+  },
+  {
+    "id": "BQ1",
+    "requirement": "Bildquellenblatt D 13: Dreischritt",
+    "cards": [
+      "Q01"
+    ]
+  },
+  {
+    "id": "BQ2",
+    "requirement": "Bildquellenblatt D 13: Wirkung, Interesse, persönliche Ansprache",
+    "cards": [
+      "Q02"
+    ]
+  },
+  {
+    "id": "BQ3",
+    "requirement": "Bildquellenblatt D 13: Was ist dargestellt?",
+    "cards": [
+      "Q03",
+      "Q07"
+    ]
+  },
+  {
+    "id": "BQ4",
+    "requirement": "Bildquellenblatt D 13: Darstellungsweise, Naturtreue, Material",
+    "cards": [
+      "Q04"
+    ]
+  },
+  {
+    "id": "BQ5",
+    "requirement": "Bildquellenblatt D 13: Bewegung, Gegenbewegung, Linienführung, Zentrum, Vorder-/Hintergrund, Teile und Ganzes",
+    "cards": [
+      "Q05",
+      "Q08"
+    ]
+  },
+  {
+    "id": "BQ6",
+    "requirement": "Bildquellenblatt D 13: Bedeutung, Vermittlungsabsicht, Menschenbild, Welt-/Natur-/Gottesverhältnis",
+    "cards": [
+      "Q06",
+      "Q09"
+    ]
+  },
+  {
+    "id": "BQ7",
+    "requirement": "Bildquellenblatt D 13: Vergleich mit modernen Werken",
+    "cards": [
+      "Q23"
+    ]
+  },
+  {
+    "id": "SQ1",
+    "requirement": "Schriftquelle D 17: W-Fragen",
+    "cards": [
+      "Q16"
+    ]
+  },
+  {
+    "id": "SQ2",
+    "requirement": "Schriftquelle D 17: Verfasser, Zeit, Adressat, Textart",
+    "cards": [
+      "Q17"
+    ]
+  },
+  {
+    "id": "SQ3",
+    "requirement": "Schriftquelle D 17: Inhalt und Absicht",
+    "cards": [
+      "Q18"
+    ]
+  },
+  {
+    "id": "SQ4",
+    "requirement": "Schriftquelle D 17: Sprache und Gestaltung",
+    "cards": [
+      "Q19"
+    ]
+  },
+  {
+    "id": "SQ5",
+    "requirement": "Schriftquelle D 17: Analyse, Interpretation, Aussagegrenzen",
+    "cards": [
+      "Q20",
+      "Q21"
+    ]
+  },
+  {
+    "id": "P1a",
+    "requirement": "Prüfung 1a (Frage aus handschriftlicher Antwort erschlossen)",
+    "cards": [
+      "Q10"
+    ]
+  },
+  {
+    "id": "P1b",
+    "requirement": "Prüfung 1b (Frage aus handschriftlicher Antwort erschlossen)",
+    "cards": [
+      "G02",
+      "Q11"
+    ]
+  },
+  {
+    "id": "P1c",
+    "requirement": "Prüfung 1c (Frage aus handschriftlicher Antwort erschlossen)",
+    "cards": [
+      "G01",
+      "G02",
+      "G03",
+      "G04",
+      "G05",
+      "G06"
+    ]
+  },
+  {
+    "id": "P2",
+    "requirement": "Prüfung 2 (Frage aus handschriftlicher Antwort erschlossen)",
+    "cards": [
+      "H11",
+      "H12",
+      "S01",
+      "S05"
+    ]
+  },
+  {
+    "id": "P3a",
+    "requirement": "Prüfung 3a (Frage aus handschriftlicher Antwort erschlossen)",
+    "cards": [
+      "J01",
+      "J02"
+    ]
+  },
+  {
+    "id": "P3b",
+    "requirement": "Prüfung 3b (Frage aus handschriftlicher Antwort erschlossen)",
+    "cards": [
+      "J06",
+      "J07",
+      "J08"
+    ]
+  },
+  {
+    "id": "P3c",
+    "requirement": "Prüfung 3c (Frage aus handschriftlicher Antwort erschlossen)",
+    "cards": [
+      "Q12",
+      "Q13",
+      "Q14",
+      "Q15",
+      "R07"
+    ]
+  },
+  {
+    "id": "P4a",
+    "requirement": "Prüfung 4a (Frage aus handschriftlicher Antwort erschlossen)",
+    "cards": [
+      "Q22"
+    ]
+  },
+  {
+    "id": "P4b",
+    "requirement": "Prüfung 4b (Frage aus handschriftlicher Antwort erschlossen)",
+    "cards": [
+      "Q16"
+    ]
+  },
+  {
+    "id": "P4c",
+    "requirement": "Prüfung 4c (Frage aus handschriftlicher Antwort erschlossen)",
+    "cards": [
+      "Q21"
+    ]
+  },
+  {
+    "id": "P5a",
+    "requirement": "Prüfung 5a (Frage aus handschriftlicher Antwort erschlossen)",
+    "cards": [
+      "E01",
+      "E02"
+    ]
+  },
+  {
+    "id": "P5b",
+    "requirement": "Prüfung 5b (Frage aus handschriftlicher Antwort erschlossen)",
+    "cards": [
+      "E03"
+    ]
+  },
+  {
+    "id": "N19",
+    "requirement": "Notizen D 19: Hierarchie, Grabkunst, Wunsch nach Jenseits",
+    "cards": [
+      "G10",
+      "Q09"
+    ]
+  },
+  {
+    "id": "N20",
+    "requirement": "Notizen D 20: Nilregulierung, Zusammenarbeit, Schrift",
+    "cards": [
+      "H07",
+      "H08",
+      "S01",
+      "S02"
+    ]
+  },
+  {
+    "id": "N21",
+    "requirement": "Notizen D 21: Kalender und Sirius",
+    "cards": [
+      "S05",
+      "S06",
+      "S07",
+      "S08"
+    ]
+  },
+  {
+    "id": "N22",
+    "requirement": "Notizen D 22: Familie, Erziehung, Hierarchie, Arbeitsteilung, Anch",
+    "cards": [
+      "G01",
+      "G02",
+      "G06",
+      "G10",
+      "G13",
+      "W05"
+    ]
+  },
+  {
+    "id": "N23",
+    "requirement": "Notizen D 23: Religion, Schöpfung, Staat, Religionsvergleich",
+    "cards": [
+      "R01",
+      "R02",
+      "R04",
+      "R06",
+      "R07"
+    ]
+  },
+  {
+    "id": "N24",
+    "requirement": "Notizen D 24: Pyramiden und moderne Technik",
+    "cards": [
+      "B01",
+      "B02",
+      "B10"
+    ]
+  },
+  {
+    "id": "N25",
+    "requirement": "Notizen D 25: Mumifizierung",
+    "cards": [
+      "J01",
+      "J02",
+      "J03",
+      "J04",
+      "J05"
+    ]
+  },
+  {
+    "id": "N26",
+    "requirement": "Notizen D 26: Totengericht und Bildkritik",
+    "cards": [
+      "J06",
+      "J07",
+      "J08",
+      "Q12",
+      "Q13",
+      "Q14",
+      "Q15",
+      "R04"
+    ]
+  },
+  {
+    "id": "GOT",
+    "requirement": "Götterübersicht D 18 sowie Amun-Re D 7",
+    "cards": [
+      "R11",
+      "R12",
+      "R13",
+      "R14",
+      "R15",
+      "R16",
+      "R17",
+      "R18",
+      "R19",
+      "R20",
+      "R21"
+    ]
+  },
+  {
+    "id": "PREP",
+    "requirement": "Prüfungsvorbereitung D 11: bereitstellen, erinnern, nachlesen, Begriffe klären, zusammenfassen, Aufgaben beantworten, Quellen zusammenfassen, Gesamtrepetition",
+    "cards": [
+      "W01",
+      "W02",
+      "W03",
+      "W04",
+      "W06"
+    ]
+  }
+]
