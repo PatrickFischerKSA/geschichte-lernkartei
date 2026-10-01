@@ -81,3 +81,14 @@ Die beiden vollständigen PDFs, Namen, Noten und vollständige Schülerantworten
 Quellbilder und Unterrichtsmaterialien erhalten durch dieses Projekt keine neue offene Lizenz. Die Kartei ist für die persönliche Repetition vorbereitet; vor einer öffentlichen Weiterverbreitung sind die Bild- und Materialrechte zu klären. Das GitHub-Repository ist zunächst privat.
 
 Die Anwendung lädt keine externen Schriften, Analysedienste oder Bibliotheken und sendet keine Lernantworten. Nur ausdrücklich angeklickte Quellenlinks öffnen externe Webseiten.
+
+### Drei Niveaus
+
+Die Auswahl über dem Lernmodus baut aufeinander auf:
+- **Basis:** Begriffe, Fakten und grundlegende Abläufe.
+- **Vertieft:** zusätzlich Erklärungen, Ursachen und Zusammenhänge.
+- **Profi:** zusätzlich Quellenkritik, Vergleiche, Transfer und Rechenaufgaben; enthält alle 112 Karten.
+
+Jede Karte ist redaktionell einem Mindestniveau (`level` in `cards.json`) zugeordnet. Das ist eine didaktische Einteilung, keine offizielle Prüfungsstufe. Die Modellantworten und Quellenbelege bleiben vollständig. Die Auswahl gilt für freies Lernen, Spielrunde und Repetition und wird im Browser gespeichert. Während einer Runde ist das Niveau gesperrt; nach dem Beenden kann es gewechselt werden. Lernstand und Wiederholungstermine gelten gemeinsam für alle Niveaus. «Alle Karten anzeigen» und der Einstieg über ein Lernziel wählen Profi, damit keine zugehörige Karte ausgeblendet wird.
+
+`tests/levels-browser.cjs` prüft Niveau-Auswahl, Speicherung, Spielrunden, fällige Karten und die mobile Darstellung.

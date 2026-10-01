@@ -46,3 +46,8 @@ test('Rechenaufgabe: Takt und mittlere Masse mit angegebenen Annahmen', () => {
   assert.equal(5995000 / 2500000, 2.398);
   assert.equal(Math.round(20 * 365 * 10 * 3600 / 2500000), 105);
 });
+test('Jede Karte hat ein Niveau; alle drei Niveaus sind vertreten', () => {
+  const levels = ['basis','vertieft','profi'];
+  for (const c of data.cards) assert.ok(levels.includes(c.level), c.id);
+  for (const level of levels) assert.ok(data.cards.some(c => c.level === level));
+});

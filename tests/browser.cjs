@@ -10,6 +10,7 @@ const path = require('node:path');
   const url = process.env.TEST_URL || 'http://127.0.0.1:8765';
   const out = path.join(__dirname,'..','test-results'); fs.mkdirSync(out,{recursive:true});
   await page.goto(url); await page.locator('#question').waitFor();
+ await page.locator('[data-level="profi"]').click();
   assert.match(await page.locator('#deck-count').innerText(),/112 Karten/);
   await page.screenshot({path:path.join(out,'desktop-question.png'),fullPage:true});
   await page.locator('#flip').click(); assert.equal(await page.locator('#flip').getAttribute('aria-expanded'),'true');

@@ -137,7 +137,8 @@
       "note": "",
       "status": "abgeglichen",
       "links": [],
-      "image": null
+      "image": null,
+      "level": "basis"
     },
     {
       "id": "H02",
@@ -155,7 +156,8 @@
       "note": "",
       "status": "abgeglichen",
       "links": [],
-      "image": null
+      "image": null,
+      "level": "basis"
     },
     {
       "id": "H03",
@@ -174,7 +176,8 @@
       "note": "",
       "status": "abgeglichen",
       "links": [],
-      "image": null
+      "image": null,
+      "level": "vertieft"
     },
     {
       "id": "H04",
@@ -192,7 +195,8 @@
       "note": "",
       "status": "abgeglichen",
       "links": [],
-      "image": null
+      "image": null,
+      "level": "vertieft"
     },
     {
       "id": "H05",
@@ -210,7 +214,8 @@
       "note": "",
       "status": "abgeglichen",
       "links": [],
-      "image": null
+      "image": null,
+      "level": "basis"
     },
     {
       "id": "H06",
@@ -229,7 +234,8 @@
       "note": "",
       "status": "abgeglichen",
       "links": [],
-      "image": null
+      "image": null,
+      "level": "basis"
     },
     {
       "id": "H07",
@@ -248,7 +254,8 @@
       "note": "",
       "status": "abgeglichen",
       "links": [],
-      "image": null
+      "image": null,
+      "level": "vertieft"
     },
     {
       "id": "H08",
@@ -268,7 +275,8 @@
       "note": "",
       "status": "abgeglichen",
       "links": [],
-      "image": null
+      "image": null,
+      "level": "vertieft"
     },
     {
       "id": "H09",
@@ -287,7 +295,8 @@
       "note": "",
       "status": "abgeglichen",
       "links": [],
-      "image": null
+      "image": null,
+      "level": "vertieft"
     },
     {
       "id": "H10",
@@ -304,7 +313,8 @@
       "note": "",
       "status": "abgeglichen",
       "links": [],
-      "image": null
+      "image": null,
+      "level": "vertieft"
     },
     {
       "id": "H11",
@@ -326,7 +336,8 @@
       "note": "",
       "status": "abgeglichen",
       "links": [],
-      "image": null
+      "image": null,
+      "level": "profi"
     },
     {
       "id": "H12",
@@ -345,7 +356,8 @@
       "note": "Mehrfacher Anbau ist aus «immer gleich warm» nicht schlüssig herzuleiten.",
       "status": "praezisiert",
       "links": [],
-      "image": null
+      "image": null,
+      "level": "profi"
     },
     {
       "id": "S01",
@@ -363,7 +375,8 @@
       "note": "",
       "status": "abgeglichen",
       "links": [],
-      "image": null
+      "image": null,
+      "level": "basis"
     },
     {
       "id": "S02",
@@ -383,7 +396,8 @@
       "links": [
         "schrift"
       ],
-      "image": null
+      "image": null,
+      "level": "vertieft"
     },
     {
       "id": "S03",
@@ -403,7 +417,8 @@
       "links": [
         "vokale"
       ],
-      "image": null
+      "image": null,
+      "level": "vertieft"
     },
     {
       "id": "S04",
@@ -422,7 +437,8 @@
       "note": "",
       "status": "abgeglichen",
       "links": [],
-      "image": null
+      "image": null,
+      "level": "vertieft"
     },
     {
       "id": "S05",
@@ -440,7 +456,8 @@
       "note": "",
       "status": "abgeglichen",
       "links": [],
-      "image": null
+      "image": null,
+      "level": "vertieft"
     },
     {
       "id": "S06",
@@ -458,7 +475,8 @@
       "note": "",
       "status": "abgeglichen",
       "links": [],
-      "image": null
+      "image": null,
+      "level": "basis"
     },
     {
       "id": "S07",
@@ -476,7 +494,8 @@
       "note": "Das Dossier nennt die fünf Zusatztage «Schalttage»; die Unterscheidung verhindert ein Missverständnis.",
       "status": "praezisiert",
       "links": [],
-      "image": null
+      "image": null,
+      "level": "basis"
     },
     {
       "id": "S08",
@@ -494,7 +513,8 @@
       "note": "Sirius erschien nicht alle 70 Tage neu: Er war während eines jährlichen Zyklus etwa 70 Tage unsichtbar.",
       "status": "praezisiert",
       "links": [],
-      "image": null
+      "image": null,
+      "level": "vertieft"
     },
     {
       "id": "S09",
@@ -512,7 +532,8 @@
       "note": "",
       "status": "abgeglichen",
       "links": [],
-      "image": null
+      "image": null,
+      "level": "basis"
     },
     {
       "id": "G01",
@@ -531,7 +552,8 @@
       "note": "",
       "status": "abgeglichen",
       "links": [],
-      "image": null
+      "image": null,
+      "level": "basis"
     },
     {
       "id": "G02",
@@ -550,7 +572,8 @@
       "note": "",
       "status": "abgeglichen",
       "links": [],
-      "image": null
+      "image": null,
+      "level": "basis"
     },
     {
       "id": "G03",
@@ -569,7 +592,8 @@
       "note": "«Meistens erzog der Mann die Kinder» ist durch das Dossier nicht belegt.",
       "status": "praezisiert",
       "links": [],
-      "image": null
+      "image": null,
+      "level": "basis"
     },
     {
       "id": "G04",
@@ -588,7 +612,8 @@
       "note": "",
       "status": "abgeglichen",
       "links": [],
-      "image": null
+      "image": null,
+      "level": "basis"
     },
     {
       "id": "G05",
@@ -607,7 +632,8 @@
       "note": "",
       "status": "abgeglichen",
       "links": [],
-      "image": null
+      "image": null,
+      "level": "basis"
     },
     {
       "id": "G06",
@@ -626,7 +652,8 @@
       "note": "",
       "status": "abgeglichen",
       "links": [],
-      "image": null
+      "image": null,
+      "level": "profi"
     },
     {
       "id": "G07",
@@ -644,7 +671,8 @@
       "note": "",
       "status": "abgeglichen",
       "links": [],
-      "image": null
+      "image": null,
+      "level": "basis"
     },
     {
       "id": "G08",
@@ -663,7 +691,8 @@
       "note": "",
       "status": "abgeglichen",
       "links": [],
-      "image": null
+      "image": null,
+      "level": "vertieft"
     },
     {
       "id": "G09",
@@ -683,7 +712,8 @@
       "note": "",
       "status": "abgeglichen",
       "links": [],
-      "image": null
+      "image": null,
+      "level": "vertieft"
     },
     {
       "id": "G10",
@@ -701,7 +731,8 @@
       "note": "Die Skizze ist ein vereinfachtes Modell. «90 % Bauern» aus der Notiz ist im Übersichtstext nicht belegt.",
       "status": "praezisiert",
       "links": [],
-      "image": null
+      "image": null,
+      "level": "basis"
     },
     {
       "id": "G11",
@@ -720,7 +751,8 @@
       "note": "",
       "status": "abgeglichen",
       "links": [],
-      "image": null
+      "image": null,
+      "level": "basis"
     },
     {
       "id": "G12",
@@ -738,7 +770,8 @@
       "note": "",
       "status": "abgeglichen",
       "links": [],
-      "image": null
+      "image": null,
+      "level": "basis"
     },
     {
       "id": "G13",
@@ -757,7 +790,8 @@
       "note": "",
       "status": "abgeglichen",
       "links": [],
-      "image": null
+      "image": null,
+      "level": "vertieft"
     },
     {
       "id": "G14",
@@ -775,7 +809,8 @@
       "note": "",
       "status": "abgeglichen",
       "links": [],
-      "image": null
+      "image": null,
+      "level": "basis"
     },
     {
       "id": "G15",
@@ -793,7 +828,8 @@
       "note": "",
       "status": "abgeglichen",
       "links": [],
-      "image": null
+      "image": null,
+      "level": "vertieft"
     },
     {
       "id": "G16",
@@ -812,7 +848,8 @@
       "note": "",
       "status": "abgeglichen",
       "links": [],
-      "image": null
+      "image": null,
+      "level": "vertieft"
     },
     {
       "id": "G17",
@@ -830,7 +867,8 @@
       "note": "",
       "status": "abgeglichen",
       "links": [],
-      "image": null
+      "image": null,
+      "level": "vertieft"
     },
     {
       "id": "R01",
@@ -848,7 +886,8 @@
       "note": "",
       "status": "abgeglichen",
       "links": [],
-      "image": null
+      "image": null,
+      "level": "vertieft"
     },
     {
       "id": "R02",
@@ -867,7 +906,8 @@
       "note": "",
       "status": "abgeglichen",
       "links": [],
-      "image": null
+      "image": null,
+      "level": "vertieft"
     },
     {
       "id": "R03",
@@ -885,7 +925,8 @@
       "note": "",
       "status": "abgeglichen",
       "links": [],
-      "image": null
+      "image": null,
+      "level": "vertieft"
     },
     {
       "id": "R04",
@@ -905,7 +946,8 @@
       "note": "Die Notiz, der Pharao habe den Totenglauben einfach zur Einschüchterung erfunden, ist unbelegt.",
       "status": "praezisiert",
       "links": [],
-      "image": null
+      "image": null,
+      "level": "vertieft"
     },
     {
       "id": "R05",
@@ -924,7 +966,8 @@
       "note": "",
       "status": "abgeglichen",
       "links": [],
-      "image": null
+      "image": null,
+      "level": "basis"
     },
     {
       "id": "R06",
@@ -943,7 +986,8 @@
       "note": "«Heute sind Religion und Politik überall getrennt» ist falsch; diese Pauschalaussage wird nicht übernommen.",
       "status": "praezisiert",
       "links": [],
-      "image": null
+      "image": null,
+      "level": "profi"
     },
     {
       "id": "R07",
@@ -963,7 +1007,8 @@
       "note": "Korrektur der verkürzten Prüfungsantwort zur Tiergestalt.",
       "status": "praezisiert",
       "links": [],
-      "image": null
+      "image": null,
+      "level": "basis"
     },
     {
       "id": "R08",
@@ -983,7 +1028,8 @@
       "note": "",
       "status": "abgeglichen",
       "links": [],
-      "image": null
+      "image": null,
+      "level": "vertieft"
     },
     {
       "id": "R09",
@@ -1002,7 +1048,8 @@
       "note": "",
       "status": "abgeglichen",
       "links": [],
-      "image": null
+      "image": null,
+      "level": "vertieft"
     },
     {
       "id": "R10",
@@ -1020,7 +1067,8 @@
       "note": "",
       "status": "abgeglichen",
       "links": [],
-      "image": null
+      "image": null,
+      "level": "basis"
     },
     {
       "id": "R11",
@@ -1038,7 +1086,8 @@
       "note": "",
       "status": "abgeglichen",
       "links": [],
-      "image": null
+      "image": null,
+      "level": "basis"
     },
     {
       "id": "R12",
@@ -1056,7 +1105,8 @@
       "note": "",
       "status": "abgeglichen",
       "links": [],
-      "image": null
+      "image": null,
+      "level": "basis"
     },
     {
       "id": "R13",
@@ -1074,7 +1124,8 @@
       "note": "",
       "status": "abgeglichen",
       "links": [],
-      "image": null
+      "image": null,
+      "level": "basis"
     },
     {
       "id": "R14",
@@ -1092,7 +1143,8 @@
       "note": "",
       "status": "abgeglichen",
       "links": [],
-      "image": null
+      "image": null,
+      "level": "basis"
     },
     {
       "id": "R15",
@@ -1110,7 +1162,8 @@
       "note": "",
       "status": "abgeglichen",
       "links": [],
-      "image": null
+      "image": null,
+      "level": "basis"
     },
     {
       "id": "R16",
@@ -1128,7 +1181,8 @@
       "note": "",
       "status": "abgeglichen",
       "links": [],
-      "image": null
+      "image": null,
+      "level": "basis"
     },
     {
       "id": "R17",
@@ -1146,7 +1200,8 @@
       "note": "",
       "status": "abgeglichen",
       "links": [],
-      "image": null
+      "image": null,
+      "level": "basis"
     },
     {
       "id": "R18",
@@ -1164,7 +1219,8 @@
       "note": "",
       "status": "abgeglichen",
       "links": [],
-      "image": null
+      "image": null,
+      "level": "basis"
     },
     {
       "id": "R19",
@@ -1182,7 +1238,8 @@
       "note": "",
       "status": "abgeglichen",
       "links": [],
-      "image": null
+      "image": null,
+      "level": "vertieft"
     },
     {
       "id": "R20",
@@ -1200,7 +1257,8 @@
       "note": "",
       "status": "abgeglichen",
       "links": [],
-      "image": null
+      "image": null,
+      "level": "basis"
     },
     {
       "id": "R21",
@@ -1218,7 +1276,8 @@
       "note": "",
       "status": "abgeglichen",
       "links": [],
-      "image": null
+      "image": null,
+      "level": "basis"
     },
     {
       "id": "J01",
@@ -1239,7 +1298,8 @@
       "links": [
         "mumien"
       ],
-      "image": null
+      "image": null,
+      "level": "vertieft"
     },
     {
       "id": "J02",
@@ -1258,7 +1318,8 @@
       "note": "",
       "status": "abgeglichen",
       "links": [],
-      "image": null
+      "image": null,
+      "level": "vertieft"
     },
     {
       "id": "J03",
@@ -1278,7 +1339,8 @@
       "links": [
         "verfahren"
       ],
-      "image": null
+      "image": null,
+      "level": "basis"
     },
     {
       "id": "J04",
@@ -1298,7 +1360,8 @@
       "links": [
         "verfahren"
       ],
-      "image": null
+      "image": null,
+      "level": "basis"
     },
     {
       "id": "J05",
@@ -1318,7 +1381,8 @@
       "links": [
         "mund"
       ],
-      "image": null
+      "image": null,
+      "level": "basis"
     },
     {
       "id": "J06",
@@ -1338,7 +1402,8 @@
       "note": "Lerne «im Gleichgewicht» statt der unpräzisen Prüfungsformulierung «gleich schwer oder leichter».",
       "status": "praezisiert",
       "links": [],
-      "image": null
+      "image": null,
+      "level": "vertieft"
     },
     {
       "id": "J07",
@@ -1359,7 +1424,8 @@
       "note": "",
       "status": "abgeglichen",
       "links": [],
-      "image": null
+      "image": null,
+      "level": "vertieft"
     },
     {
       "id": "J08",
@@ -1380,7 +1446,8 @@
       "links": [
         "ani"
       ],
-      "image": null
+      "image": null,
+      "level": "basis"
     },
     {
       "id": "B01",
@@ -1399,7 +1466,8 @@
       "note": "",
       "status": "abgeglichen",
       "links": [],
-      "image": null
+      "image": null,
+      "level": "vertieft"
     },
     {
       "id": "B02",
@@ -1418,7 +1486,8 @@
       "note": "",
       "status": "abgeglichen",
       "links": [],
-      "image": null
+      "image": null,
+      "level": "vertieft"
     },
     {
       "id": "B03",
@@ -1437,7 +1506,8 @@
       "note": "",
       "status": "abgeglichen",
       "links": [],
-      "image": null
+      "image": null,
+      "level": "vertieft"
     },
     {
       "id": "B04",
@@ -1455,7 +1525,8 @@
       "note": "",
       "status": "abgeglichen",
       "links": [],
-      "image": null
+      "image": null,
+      "level": "vertieft"
     },
     {
       "id": "B05",
@@ -1473,7 +1544,8 @@
       "note": "",
       "status": "abgeglichen",
       "links": [],
-      "image": null
+      "image": null,
+      "level": "vertieft"
     },
     {
       "id": "B06",
@@ -1492,7 +1564,8 @@
       "note": "",
       "status": "abgeglichen",
       "links": [],
-      "image": null
+      "image": null,
+      "level": "vertieft"
     },
     {
       "id": "B07",
@@ -1511,7 +1584,8 @@
       "note": "Aus Schöpfungsdarstellung und Grabfunktion erschlossen; die genaue Filmaussage ist ohne Film nicht überprüfbar.",
       "status": "praezisiert",
       "links": [],
-      "image": null
+      "image": null,
+      "level": "vertieft"
     },
     {
       "id": "B08",
@@ -1530,7 +1604,8 @@
       "note": "Bewusst offen: keine erfundene Musterlösung für einen nicht vorliegenden Film.",
       "status": "offen",
       "links": [],
-      "image": null
+      "image": null,
+      "level": "vertieft"
     },
     {
       "id": "B09",
@@ -1549,7 +1624,8 @@
       "note": "",
       "status": "abgeglichen",
       "links": [],
-      "image": null
+      "image": null,
+      "level": "profi"
     },
     {
       "id": "B10",
@@ -1567,7 +1643,8 @@
       "note": "Transferantwort: Baupläne und Messgeräte nicht pauschal als moderne Erfindungen nennen.",
       "status": "praezisiert",
       "links": [],
-      "image": null
+      "image": null,
+      "level": "basis"
     },
     {
       "id": "B11",
@@ -1586,7 +1663,8 @@
       "note": "Ergebnis mit den vorgegebenen Zahlen berechnet; Arbeitszeitannahmen müssen genannt werden.",
       "status": "praezisiert",
       "links": [],
-      "image": null
+      "image": null,
+      "level": "profi"
     },
     {
       "id": "B12",
@@ -1604,7 +1682,8 @@
       "note": "",
       "status": "abgeglichen",
       "links": [],
-      "image": null
+      "image": null,
+      "level": "profi"
     },
     {
       "id": "B13",
@@ -1622,7 +1701,8 @@
       "note": "Die Formulierung «Ende der Hochkultur» ist eine grobe Periodisierung.",
       "status": "praezisiert",
       "links": [],
-      "image": null
+      "image": null,
+      "level": "basis"
     },
     {
       "id": "Q01",
@@ -1639,7 +1719,8 @@
       "note": "",
       "status": "abgeglichen",
       "links": [],
-      "image": null
+      "image": null,
+      "level": "basis"
     },
     {
       "id": "Q02",
@@ -1657,7 +1738,8 @@
       "note": "",
       "status": "abgeglichen",
       "links": [],
-      "image": null
+      "image": null,
+      "level": "basis"
     },
     {
       "id": "Q03",
@@ -1675,7 +1757,8 @@
       "note": "",
       "status": "abgeglichen",
       "links": [],
-      "image": null
+      "image": null,
+      "level": "basis"
     },
     {
       "id": "Q04",
@@ -1693,7 +1776,8 @@
       "note": "",
       "status": "abgeglichen",
       "links": [],
-      "image": null
+      "image": null,
+      "level": "vertieft"
     },
     {
       "id": "Q05",
@@ -1711,7 +1795,8 @@
       "note": "",
       "status": "abgeglichen",
       "links": [],
-      "image": null
+      "image": null,
+      "level": "vertieft"
     },
     {
       "id": "Q06",
@@ -1729,7 +1814,8 @@
       "note": "",
       "status": "abgeglichen",
       "links": [],
-      "image": null
+      "image": null,
+      "level": "vertieft"
     },
     {
       "id": "Q07",
@@ -1747,7 +1833,8 @@
       "note": "",
       "status": "abgeglichen",
       "links": [],
-      "image": "grabmalerei.jpg"
+      "image": "grabmalerei.jpg",
+      "level": "vertieft"
     },
     {
       "id": "Q08",
@@ -1765,7 +1852,8 @@
       "note": "",
       "status": "abgeglichen",
       "links": [],
-      "image": "grabmalerei.jpg"
+      "image": "grabmalerei.jpg",
+      "level": "profi"
     },
     {
       "id": "Q09",
@@ -1784,7 +1872,8 @@
       "note": "Begründete Deutung aus Bildbefund und Grabkontext; ein persönlicher Wunsch des Dargestellten ist nicht direkt überliefert.",
       "status": "abgeglichen",
       "links": [],
-      "image": "grabmalerei.jpg"
+      "image": "grabmalerei.jpg",
+      "level": "profi"
     },
     {
       "id": "Q10",
@@ -1804,7 +1893,8 @@
       "note": "Die Original-Prüfungsabbildung fehlt; hier wird die passende Dossierabbildung verwendet.",
       "status": "abgeglichen",
       "links": [],
-      "image": "paarstatue.jpg"
+      "image": "paarstatue.jpg",
+      "level": "profi"
     },
     {
       "id": "Q11",
@@ -1824,7 +1914,8 @@
       "note": "Rechtliche Stellung und soziale Wirklichkeit auseinanderhalten.",
       "status": "praezisiert",
       "links": [],
-      "image": "paarstatue.jpg"
+      "image": "paarstatue.jpg",
+      "level": "profi"
     },
     {
       "id": "Q12",
@@ -1844,7 +1935,8 @@
       "note": "Die Beschriftungen im Foto gehören zu den Schülernotizen und sind nicht durchgehend korrekt.",
       "status": "praezisiert",
       "links": [],
-      "image": "totengericht.jpg"
+      "image": "totengericht.jpg",
+      "level": "vertieft"
     },
     {
       "id": "Q13",
@@ -1865,7 +1957,8 @@
       "links": [
         "hunefer"
       ],
-      "image": "totengericht.jpg"
+      "image": "totengericht.jpg",
+      "level": "profi"
     },
     {
       "id": "Q14",
@@ -1887,7 +1980,8 @@
       "links": [
         "hunefer"
       ],
-      "image": null
+      "image": null,
+      "level": "vertieft"
     },
     {
       "id": "Q15",
@@ -1907,7 +2001,8 @@
       "note": "",
       "status": "abgeglichen",
       "links": [],
-      "image": null
+      "image": null,
+      "level": "profi"
     },
     {
       "id": "Q16",
@@ -1926,7 +2021,8 @@
       "note": "",
       "status": "abgeglichen",
       "links": [],
-      "image": null
+      "image": null,
+      "level": "basis"
     },
     {
       "id": "Q17",
@@ -1944,7 +2040,8 @@
       "note": "Die handschriftliche Autorenzuschreibung «im Auftrag des Pharaos» wird nicht als Fakt übernommen.",
       "status": "praezisiert",
       "links": [],
-      "image": null
+      "image": null,
+      "level": "profi"
     },
     {
       "id": "Q18",
@@ -1963,7 +2060,8 @@
       "note": "",
       "status": "abgeglichen",
       "links": [],
-      "image": null
+      "image": null,
+      "level": "profi"
     },
     {
       "id": "Q19",
@@ -1981,7 +2079,8 @@
       "note": "",
       "status": "abgeglichen",
       "links": [],
-      "image": null
+      "image": null,
+      "level": "profi"
     },
     {
       "id": "Q20",
@@ -2000,7 +2099,8 @@
       "note": "",
       "status": "abgeglichen",
       "links": [],
-      "image": null
+      "image": null,
+      "level": "profi"
     },
     {
       "id": "Q21",
@@ -2019,7 +2119,8 @@
       "note": "Die Prüfungsantwort wird methodisch geschärft.",
       "status": "praezisiert",
       "links": [],
-      "image": null
+      "image": null,
+      "level": "profi"
     },
     {
       "id": "Q22",
@@ -2038,7 +2139,8 @@
       "note": "Original-Prüfungstext nicht beigefügt.",
       "status": "offen",
       "links": [],
-      "image": null
+      "image": null,
+      "level": "profi"
     },
     {
       "id": "Q23",
@@ -2056,7 +2158,8 @@
       "note": "",
       "status": "abgeglichen",
       "links": [],
-      "image": null
+      "image": null,
+      "level": "profi"
     },
     {
       "id": "E01",
@@ -2077,7 +2180,8 @@
       "links": [
         "hesiod"
       ],
-      "image": null
+      "image": null,
+      "level": "basis"
     },
     {
       "id": "E02",
@@ -2098,7 +2202,8 @@
       "links": [
         "solon"
       ],
-      "image": null
+      "image": null,
+      "level": "vertieft"
     },
     {
       "id": "E03",
@@ -2121,7 +2226,8 @@
         "polis",
         "griechen"
       ],
-      "image": null
+      "image": null,
+      "level": "vertieft"
     },
     {
       "id": "W01",
@@ -2139,7 +2245,8 @@
       "note": "",
       "status": "abgeglichen",
       "links": [],
-      "image": null
+      "image": null,
+      "level": "basis"
     },
     {
       "id": "W02",
@@ -2160,7 +2267,8 @@
       "note": "",
       "status": "abgeglichen",
       "links": [],
-      "image": null
+      "image": null,
+      "level": "basis"
     },
     {
       "id": "W03",
@@ -2180,7 +2288,8 @@
       "note": "",
       "status": "abgeglichen",
       "links": [],
-      "image": null
+      "image": null,
+      "level": "basis"
     },
     {
       "id": "W04",
@@ -2199,7 +2308,8 @@
       "note": "",
       "status": "abgeglichen",
       "links": [],
-      "image": null
+      "image": null,
+      "level": "basis"
     },
     {
       "id": "W05",
@@ -2218,7 +2328,8 @@
       "note": "",
       "status": "abgeglichen",
       "links": [],
-      "image": null
+      "image": null,
+      "level": "basis"
     },
     {
       "id": "W06",
@@ -2238,7 +2349,8 @@
       "note": "",
       "status": "abgeglichen",
       "links": [],
-      "image": null
+      "image": null,
+      "level": "profi"
     }
   ]
 }

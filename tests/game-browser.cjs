@@ -6,6 +6,7 @@ const assert=require('node:assert/strict'),fs=require('node:fs');
  const page=await browser.newPage({viewport:{width:1440,height:1050},reducedMotion:'reduce'}), errors=[];
  page.on('pageerror',e=>errors.push(e.message));
  await page.goto(process.env.TEST_URL||'http://127.0.0.1:8765');
+ await page.locator('[data-level="profi"]').click();
  await page.locator('[data-play="review"]').click();assert.equal(await page.locator('#start-round').isDisabled(),true);
  await page.locator('#search').fill('H01');await page.locator('[data-play="game"]').click();
  await page.locator('#start-round').click();assert.equal(await page.locator('#search').isDisabled(),true);

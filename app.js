@@ -5,6 +5,15 @@
   const $ = id => document.getElementById(id);
   const KEY = 'geschichte-zum-wenden:v1';
   const GAME_KEY = 'geschichte-zum-wenden:training:v1';
+  const LEVEL_KEY = 'geschichte-zum-wenden:level:v1';
+  const levels = {
+    basis: {rank:0, label:'Basis', description:'Begriffe, Fakten und grundlegende Abläufe sicher wiedergeben.'},
+    vertieft: {rank:1, label:'Vertieft', description:'Zusammenhänge erklären und Ursachen verstehen. Enthält auch die Basis-Karten.'},
+    profi: {rank:2, label:'Profi', description:'Quellen kritisch prüfen, vergleichen und Wissen anwenden. Enthält alle Karten, auch Basis und Vertieft.'}
+  };
+  let level = 'basis';
+  try { const saved = localStorage.getItem(LEVEL_KEY); if (Object.hasOwn(levels, saved)) level = saved; } catch {}
+  const inLevel = c => levels[c.level].rank <= levels[level].rank;
   const L = window.Learning;
   let playMode = 'free', round = null, training;
   const statuses = { abgeglichen: 'Dossierabgleich', praezisiert: 'Präzisiert / korrigiert', ergaenzt: 'Ergänzend geprüft', offen: 'Quelle fehlt' };
@@ -47,7 +56,7 @@
     const search = norm($('search').value.trim()), mode = $('mode').value, goal = $('goal-filter').value;
     const byId = new Map(cards.map(c => [c.id, c]));
     return order.map(id => byId.get(id)).filter(c =>
-      (topic === 'all' || c.topic === topic) &&
+      inLevel(c) && (topic === 'all' || c.topic === topic) &&
       (goal === 'all' || c.goals.includes(goal)) &&
       (!search || norm([c.question, ...c.answer, c.topic, c.note, c.id, c.origin].join(' ')).includes(search)) &&
       (mode === 'all' || (mode === 'new' && !progress[c.id]) || (mode === 'notes' && c.status !== 'abgeglichen') || (mode === 'open' && c.status === 'offen') || progress[c.id] === mode)
@@ -84,6 +93,7 @@
     index = Math.max(0, Math.min(index, total - 1));
     const c = selection[index];
     $('topic-label').textContent = c.topic; $('card-id').textContent = c.id;
+    $('card-level').textContent = levels[c.level].label;
     $('question').textContent = c.question; $('origin').textContent = c.origin;
     $('answer').innerHTML = c.answer.map(p => `<p>${escape(p)}</p>`).join('');
     $('status-label').textContent = statuses[c.status];
@@ -128,7 +138,12 @@
   }
   function updateGameUI() {
     const active = !!round?.queue.length, complete = !!round && !active;
-    $('due-count').textContent = L.dueCards(cards, progress, training).length;
+    $('due-count').textContent = L.dueCards(cards.filter(inLevel), progress, training).length;
+    document.querySelectorAll('[data-level]').forEach(b => {
+      b.setAttribute('aria-pressed', String(b.dataset.level === level)); b.disabled = active;
+    });
+    $('level-description').textContent = `${levels[level].description} ${cards.filter(inLevel).length} Karten. Auswahl gilt für alle Lernmodi.`;
+    for (const b of $('topic-list').children) b.lastElementChild.textContent = cards.filter(c => inLevel(c) && (b.dataset.topic === 'all' || c.topic === b.dataset.topic)).length;
     document.querySelectorAll('[data-play]').forEach(b => b.setAttribute('aria-pressed', String(b.dataset.play === playMode)));
     $('round-setup').hidden = playMode === 'free' || !!round;
     $('round-hud').hidden = !active; $('round-result').hidden = !complete;
@@ -183,7 +198,12 @@
     refresh();
     (result.complete ? $('round-result') : $('flip')).focus({preventScroll:true});
   }
-  function resetFilters() { topic = 'all'; $('search').value = ''; $('mode').value = 'all'; $('goal-filter').value = 'all'; index = 0; }
+  function setLevel(value) {
+    level = value; round = null; index = 0; flipped = false;
+    try { localStorage.setItem(LEVEL_KEY, level); } catch { $('storage-warning').hidden = false; }
+    $('round-feedback').hidden = true; refresh();
+  }
+  function resetFilters() { setLevel('profi'); topic = 'all'; $('search').value = ''; $('mode').value = 'all'; $('goal-filter').value = 'all'; index = 0; }
   function switchView(showGoals) {
     $('study-view').hidden = showGoals; $('goals-view').hidden = !showGoals;
     $('study-tab').classList.toggle('active', !showGoals); $('study-tab').setAttribute('aria-pressed', String(!showGoals));
@@ -191,6 +211,7 @@
     if (!showGoals) requestAnimationFrame(resizeCard);
     window.scrollTo({top:0, behavior:'instant'});
   }
+  document.querySelectorAll('[data-level]').forEach(b => b.addEventListener('click', () => setLevel(b.dataset.level)));
   $('flip').addEventListener('click', () => setFlip(!flipped));
   document.querySelectorAll('[data-play]').forEach(b => b.addEventListener('click', () => setPlayMode(b.dataset.play)));
   $('start-round').addEventListener('click', startRound);
