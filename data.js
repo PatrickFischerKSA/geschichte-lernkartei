@@ -125,7 +125,7 @@ window.LEARNING_DATA = {
       "topic": "Hochkultur & Nil",
       "question": "Was bezeichnet der Begriff «Hochkultur» in diesem Unterricht?",
       "answer": [
-        "Staat · Verwaltung · Arbeitsteilung · Hierarchie · Schrift · Religion · Technik · keine Wertung anderer Kulturen"
+        "Eine Hochkultur ist eine komplex organisierte Gesellschaft mit Staat, Verwaltung, Arbeitsteilung, sozialer Rangordnung und Schrift. Hinzu kommen bedeutende religiöse, künstlerische und technische Leistungen. Der Begriff wertet andere Kulturen nicht ab."
       ],
       "pages": "D 2, 5, 8–9, 11, 14",
       "origin": "Lernzielblatt: Definition und Elemente",
@@ -144,7 +144,7 @@ window.LEARNING_DATA = {
       "topic": "Hochkultur & Nil",
       "question": "Wo und ungefähr wann entstanden die frühen Hochkulturen auf der Karte?",
       "answer": [
-        "Nil / Mesopotamien: ca. 3000 v. Chr. · Indus: ca. 2500 · Huang He: ca. 1500 · vereinfachte Dossierdaten"
+        "Die Dossierkarte nennt Ägypten am Nil und Mesopotamien an Euphrat und Tigris um 3000 v. Chr., die Induskultur um 2500 und die chinesische Hochkultur am Huang He um 1500 v. Chr. Das sind vereinfachte Orientierungsdaten."
       ],
       "pages": "D 14",
       "origin": "Einleitung: Karte",
@@ -162,7 +162,7 @@ window.LEARNING_DATA = {
       "topic": "Hochkultur & Nil",
       "question": "Welche Grundbedingungen ermöglichten die Entwicklung der ägyptischen Hochkultur?",
       "answer": [
-        "Sesshaftigkeit · Landwirtschaft · Nilwasser · Nilschlamm · Überschüsse · Rohstoffe · Transport · Zusammenarbeit"
+        "Sesshaftigkeit und Landwirtschaft bildeten die Grundlage. Nilwasser und fruchtbarer Schlamm ermöglichten Überschüsse; Transport, Rohstoffe und gemeinsame Wasserprojekte begünstigten spezialisierte Berufe, Verwaltung und Staat."
       ],
       "pages": "D 1–2, 14",
       "origin": "Einleitung / Lernziel: Naturraum und Hochkultur",
@@ -181,7 +181,7 @@ window.LEARNING_DATA = {
       "topic": "Hochkultur & Nil",
       "question": "Warum nannte Herodot Ägypten ein «Geschenk des Nils»?",
       "answer": [
-        "Wasser · fruchtbarer Schlamm · Landwirtschaft · Verkehrsweg · Handel · Risiken: Hochwasser / Hunger"
+        "Der Nil brachte Wasser und fruchtbaren Schlamm in die Wüste und machte Landwirtschaft möglich. Er war auch Verkehrs- und Handelsweg. Zu schwache oder zu starke Fluten konnten jedoch Hunger und Schäden verursachen."
       ],
       "pages": "D 1",
       "origin": "Kapitel 1.1",
@@ -199,7 +199,7 @@ window.LEARNING_DATA = {
       "topic": "Hochkultur & Nil",
       "question": "Wie sieht der ägyptische Naturraum aus, und wo liegen Ober- und Unterägypten?",
       "answer": [
-        "Niltal: fruchtbarer Wüstenstreifen · Delta: Norden · Oberägypten: Süden, flussaufwärts · Unterägypten: Norden"
+        "Das fruchtbare Niltal liegt als schmaler Streifen in der Wüste und öffnet sich im Norden zum Delta. Oberägypten liegt im Süden flussaufwärts, Unterägypten im Norden am Delta."
       ],
       "pages": "D 1, Karte",
       "origin": "Kartenverständnis",
@@ -217,7 +217,7 @@ window.LEARNING_DATA = {
       "topic": "Hochkultur & Nil",
       "question": "Welche drei Situationen der Nilflut mussten die Menschen bewältigen?",
       "answer": [
-        "Normale Flut: Bewässerung / Düngung · schwache Flut: Hunger · starke Flut: Schäden · Wasserregulierung"
+        "Eine normale Flut bewässerte und düngte die Felder. Zu wenig Wasser führte zu Missernten und Hunger, zu viel Wasser beschädigte Felder und Siedlungen. Deshalb musste man das Wasser regulieren."
       ],
       "pages": "D 1, 3",
       "origin": "Kapitel 1.1 / Prüfungsantwort 2",
@@ -236,7 +236,7 @@ window.LEARNING_DATA = {
       "topic": "Hochkultur & Nil",
       "question": "Wie führten die Herausforderungen der Natur zu einem technischen Entwicklungssprung?",
       "answer": [
-        "Fluten → Dämme / Kanäle / Schöpfgeräte · Flurgrenzen → Vermessung · Jahresrhythmus → Kalender · Abgaben → Schrift"
+        "Gegen Flutschäden entstanden Dämme, zur Bewässerung Kanäle und Schöpfgeräte. Überflutete Feldgrenzen erforderten Vermessung, der Jahresrhythmus einen Kalender und die Verwaltung von Abgaben schriftliche Aufzeichnungen."
       ],
       "pages": "D 1–3, 9, 15",
       "origin": "Kapitel 1 · Aufgabe 1",
@@ -255,7 +255,7 @@ window.LEARNING_DATA = {
       "topic": "Hochkultur & Nil",
       "question": "Wie förderte die Bewältigung der Nilprobleme die Entstehung eines Staates?",
       "answer": [
-        "Wasserbau → Zusammenarbeit → Koordination → Verwaltung → Reichseinigung · Pharao · Natur als Mitursache"
+        "Grosse Wasseranlagen erforderten die Zusammenarbeit mehrerer Dörfer. Daraus entstanden dauerhafte Leitungs- und Verwaltungsaufgaben, die die Staatsbildung begünstigten. Die Natur war dabei eine Mitursache, nicht die einzige Erklärung."
       ],
       "pages": "D 2, 15",
       "origin": "Kapitel 1 · Aufgabe 2",
@@ -274,7 +274,7 @@ window.LEARNING_DATA = {
       "topic": "Hochkultur & Nil",
       "question": "Wie hängen Überschüsse und Arbeitsteilung zusammen?",
       "answer": [
-        "Überschüsse → Vorräte → Versorgung anderer Berufe → Spezialisierung → höhere Leistungsfähigkeit"
+        "Landwirtschaftliche Überschüsse ernährten auch Menschen, die selbst keine Nahrung erzeugten. Dadurch konnten sich Berufe wie Schreiber, Handwerker und Beamte entwickeln. Diese Spezialisierung nennt man Arbeitsteilung."
       ],
       "pages": "D 2, 5",
       "origin": "Kapitel 1.2",
@@ -293,7 +293,7 @@ window.LEARNING_DATA = {
       "topic": "Hochkultur & Nil",
       "question": "Welchen Preis hatte die gemeinsame Existenzsicherung durch den Staat?",
       "answer": [
-        "Gewinn: Sicherheit / Vorräte / Infrastruktur · Preis: Abgaben / Fronarbeit / Gehorsam / weniger Selbstständigkeit"
+        "Der Staat bot Sicherheit, Vorräte und gemeinsam gebaute Anlagen. Dafür mussten die Menschen Abgaben und Arbeitsleistungen erbringen, Anweisungen befolgen und Selbstständigkeit aufgeben."
       ],
       "pages": "D 2, 5–6",
       "origin": "Kapitel 1.2",
@@ -311,7 +311,7 @@ window.LEARNING_DATA = {
       "topic": "Hochkultur & Nil",
       "question": "Wie erklärt man Ägyptens Hochkultur in einer zusammenhängenden Ursache-Wirkungs-Kette?",
       "answer": [
-        "Nil → Bewässerung → Planung → Überschüsse → Arbeitsteilung → Verwaltung / Schrift / Kalender → Grossbauten · Religion / Maat: Legitimation"
+        "Die Nilflut erforderte Bewässerung und gemeinsame Planung. Höhere Erträge ermöglichten Vorräte und spezialisierte Berufe; dafür brauchte man Verwaltung, Schrift und Kalender. Diese Organisation ermöglichte Grossbauten, während Religion und Maat die Herrschaft begründeten."
       ],
       "pages": "D 1–9, 11, 14",
       "origin": "Zentrales Lernziel / Prüfungsantwort 2",
@@ -333,7 +333,7 @@ window.LEARNING_DATA = {
       "topic": "Hochkultur & Nil",
       "question": "Stimmt die Prüfungsantwort: «Es gab fast keine Jahreszeiten; Vorräte waren für den Krieg»?",
       "answer": [
-        "Drei Jahreszeiten · Vorräte: Versorgung / Missernten / Krisen · nicht nur Krieg"
+        "Nein. Das Dossier nennt drei Jahreszeiten: Überschwemmung, Wachstum und Trockenheit. Vorräte sicherten die Versorgung und halfen bei Missernten und Krisen; sie waren nicht nur für Kriege bestimmt."
       ],
       "pages": "D 2–3; P 1–2",
       "origin": "Korrektur zu Prüfungsantwort 2",
@@ -352,7 +352,7 @@ window.LEARNING_DATA = {
       "topic": "Schrift & Kalender",
       "question": "Wozu dienten die ersten Aufzeichnungen laut Dossier?",
       "answer": [
-        "Buchhaltung · Vorräte · Mengen · Produkte · Abgaben · später: Religion / Literatur / Geschichte"
+        "Die ersten Aufzeichnungen dienten der Buchhaltung: Vorräte, Mengen und Abgaben wurden festgehalten. Später übermittelte Schrift auch religiöse, literarische und historische Inhalte."
       ],
       "pages": "D 2–3, 15",
       "origin": "Kapitel 1 · Aufgabe 3, Teil 1",
@@ -370,7 +370,7 @@ window.LEARNING_DATA = {
       "topic": "Schrift & Kalender",
       "question": "Wie wurde aus Zeichen eine Schrift, die auch abstrakte Inhalte ausdrücken konnte?",
       "answer": [
-        "Wortzeichen · Lautzeichen · Deutzeichen · Kombinationen → abstrakte Inhalte · kein reines Alphabet"
+        "Zeichen konnten sowohl Wörter als auch Laute wiedergeben; Deutzeichen halfen beim Verständnis. Ihre Kombination machte auch abstrakte Aussagen möglich. Hieroglyphen waren deshalb ein Mischsystem, kein reines Alphabet."
       ],
       "pages": "D 2, 15",
       "origin": "Kapitel 1 · Aufgabe 3, Teil 2",
@@ -390,7 +390,7 @@ window.LEARNING_DATA = {
       "topic": "Schrift & Kalender",
       "question": "Was bedeutet die Aussage, die ägyptische Schrift kenne «keine Vokale»?",
       "answer": [
-        "Schrift: meist nur Konsonanten · gesprochene Sprache: auch Vokale"
+        "In der Schrift wurden meist Konsonanten, aber keine Vokale notiert. Die gesprochene Sprache hatte selbstverständlich Vokale. Schrift und Sprache sind hier zu unterscheiden."
       ],
       "pages": "D 2",
       "origin": "Fachbegriff: Lautzeichen",
@@ -410,7 +410,7 @@ window.LEARNING_DATA = {
       "topic": "Schrift & Kalender",
       "question": "Welche Bedeutung hatte Schrift über die Buchhaltung hinaus?",
       "answer": [
-        "Fernkommunikation · Überlieferung · Verwaltung · Wissensspeicherung · Geschichtsforschung"
+        "Schrift übermittelte Informationen über weite Entfernungen und bewahrte Wissen für spätere Generationen. Sie erleichterte die Verwaltung und ist heute eine wichtige Grundlage der Geschichtsforschung."
       ],
       "pages": "D 3",
       "origin": "Kapitel 1.3",
@@ -429,7 +429,7 @@ window.LEARNING_DATA = {
       "topic": "Schrift & Kalender",
       "question": "Wie entstand der Kalender, und weshalb brauchte ihn der Staat?",
       "answer": [
-        "Nilflut / Landwirtschaft → Jahresrhythmus · Staat: Arbeit / Abgaben / Planung → fester Kalender"
+        "Nilflut und Landwirtschaft gaben den Jahresrhythmus vor. Der Staat brauchte feste Termine für Arbeit, Abgaben und Planung. Daraus entstand ein Kalender mit festgelegten Monaten und Tagen."
       ],
       "pages": "D 3, 15",
       "origin": "Kapitel 1 · Aufgabe 4",
@@ -447,7 +447,7 @@ window.LEARNING_DATA = {
       "topic": "Schrift & Kalender",
       "question": "Welche drei Jahreszeiten unterscheidet das Dossier?",
       "answer": [
-        "Überschwemmung · Herauskommen / Wachstum · Hitze / Trockenheit"
+        "Die drei Jahreszeiten waren Überschwemmung, Herauskommen des Landes beziehungsweise Wachstum sowie Hitze beziehungsweise Trockenheit. Sie richteten sich nach Nilflut und Landwirtschaft."
       ],
       "pages": "D 3",
       "origin": "Kapitel 1.4",
@@ -465,7 +465,7 @@ window.LEARNING_DATA = {
       "topic": "Schrift & Kalender",
       "question": "Wie war das ägyptische bürgerliche Jahr aufgebaut?",
       "answer": [
-        "12 × 30 + 5 = 365 Tage · 3 Jahreszeiten à 4 Monate · Zusatztage ≠ Schalttage"
+        "Das Jahr hatte zwölf Monate zu je 30 Tagen und fünf Zusatztage: insgesamt 365 Tage. Je vier Monate bildeten eine Jahreszeit. Die Zusatztage waren keine Schalttage wie in unserem Kalender."
       ],
       "pages": "D 3",
       "origin": "Kapitel 1.4",
@@ -483,7 +483,7 @@ window.LEARNING_DATA = {
       "topic": "Schrift & Kalender",
       "question": "Welche Rolle spielte Sirius, und weshalb gab es ein «Wandeljahr»?",
       "answer": [
-        "Sirius: Wiedererscheinen nach ca. 70 Tagen Unsichtbarkeit · Jahresbeginn / Nilflut · 365 Tage zu kurz → Verschiebung: ca. 1 Tag / 4 Jahre"
+        "Sirius erschien nach etwa 70 Tagen Unsichtbarkeit ungefähr zum Beginn der Nilflut wieder und markierte den Jahresbeginn. Das 365-Tage-Jahr war aber zu kurz: Ohne Schalttag verschob sich der Kalender etwa alle vier Jahre um einen Tag gegenüber den Jahreszeiten."
       ],
       "pages": "D 3; D 21 (Notizen)",
       "origin": "Kapitel 1.4 / Notizkorrektur",
@@ -501,7 +501,7 @@ window.LEARNING_DATA = {
       "topic": "Schrift & Kalender",
       "question": "Welche beiden späteren Kalenderreformen nennt das Dossier?",
       "answer": [
-        "Julianischer Kalender: Römisches Reich · gregorianischer Kalender: frühe Neuzeit"
+        "Das Dossier nennt den julianischen Kalender aus dem Römischen Reich und den gregorianischen Kalender aus der frühen Neuzeit. Beide entstanden erst lange nach dem ursprünglichen ägyptischen Kalender."
       ],
       "pages": "D 3",
       "origin": "Kapitel 1.4",
@@ -519,7 +519,7 @@ window.LEARNING_DATA = {
       "topic": "Staat, Familie & Maat",
       "question": "Welche Merkmale prägten Familie und Ehe im alten Ägypten?",
       "answer": [
-        "Partnerschaft · Kinder · gemeinsamer Haushalt · gesellschaftliche Ehe · keine notwendige Trauung · Zuneigung, nicht immer freie Liebesheirat"
+        "Partnerschaft, Kinder und ein gemeinsamer Haushalt standen im Mittelpunkt. Eine staatliche oder religiöse Trauung war nicht notwendig. Liebesgedichte belegen Zuneigung, aber nicht jede Ehe war eine freie Liebesheirat."
       ],
       "pages": "D 3–4, 15",
       "origin": "Kapitel 2 · Aufgabe 1 / Prüfung 1c",
@@ -538,7 +538,7 @@ window.LEARNING_DATA = {
       "topic": "Staat, Familie & Maat",
       "question": "Welche Rechte hatten Frauen nach dem Dossier?",
       "answer": [
-        "Eigener Besitz · Erbrecht · Testament · rechtliche Eigenständigkeit trotz Heirat · keine umfassende Gleichstellung"
+        "Frauen konnten selbstständig Besitz haben, erben und über ihr Vermögen verfügen. Diese Rechte blieben auch nach einer Heirat bestehen. Das bedeutete jedoch keine Gleichstellung in allen gesellschaftlichen Bereichen."
       ],
       "pages": "D 3–5, 15",
       "origin": "Kapitel 2 · Aufgabe 1 / Prüfung 1b–c",
@@ -557,7 +557,7 @@ window.LEARNING_DATA = {
       "topic": "Staat, Familie & Maat",
       "question": "Welche Aufgaben und Berufe von Frauen nennt das Dossier?",
       "answer": [
-        "Haushalt · Kinderbetreuung · Handwerk · Frisieren · Ausschank · Tanz · Mutterschaft: Ansehen · Erziehung auch Vaterpflicht"
+        "Frauen arbeiteten im Haushalt und betreuten Kinder, waren aber auch Handwerkerinnen, Friseurinnen, Schankfrauen und Tänzerinnen. Mutterschaft brachte Ansehen; Erziehung war zugleich eine Aufgabe des Vaters."
       ],
       "pages": "D 4; P 1",
       "origin": "Kapitel 2.1 / Korrektur zu Prüfung 1c",
@@ -576,7 +576,7 @@ window.LEARNING_DATA = {
       "topic": "Staat, Familie & Maat",
       "question": "Wie wurden Kinder und die Wirkung von Erziehung beurteilt?",
       "answer": [
-        "Söhne / Töchter willkommen · Erziehung: Menschen formen · Bildgrösse ≠ tatsächliches Alter"
+        "Söhne und Töchter galten als willkommen. Erziehung sollte Menschen formen und zu einem gelungenen Leben führen. Die kleine Darstellung von Kindern in Bildern zeigt nicht unbedingt ihr tatsächliches Alter."
       ],
       "pages": "D 3–4",
       "origin": "Kapitel 2.1",
@@ -595,7 +595,7 @@ window.LEARNING_DATA = {
       "topic": "Staat, Familie & Maat",
       "question": "Was sind «Weisheitslehren»?",
       "answer": [
-        "Lehrtexte · Vater-Sohn-Rahmen · Lebensregeln · Erfolg durch Befolgung · Normen, kein Alltagsbericht"
+        "Weisheitslehren sind Texte mit Lebens- und Verhaltensregeln, oft als Belehrung eines Sohnes durch einen Vater gestaltet. Sie zeigen gesellschaftliche Ideale, nicht unbedingt den wirklichen Familienalltag."
       ],
       "pages": "D 4, 17",
       "origin": "Kapitel 2.1 / ergänzende Quelle",
@@ -614,7 +614,7 @@ window.LEARNING_DATA = {
       "topic": "Staat, Familie & Maat",
       "question": "Wie lassen sich ägyptische Erziehungsgrundsätze und -methoden mit heutigen Idealen vergleichen?",
       "answer": [
-        "Damals: Maat / Gehorsam / Fleiss / beschränkter Bildungszugang · heutiges Ideal: Chancengleichheit / Mitbestimmung / Selbstständigkeit · gemeinsam: Wissen / Werte"
+        "Im Dossier stehen Maat, Gehorsam, Fleiss und die Einordnung in die Gesellschaft im Vordergrund; der Bildungszugang war stark beschränkt. Heutige Ideale betonen Chancengleichheit, Mitbestimmung und Selbstständigkeit. Gemeinsam ist die Weitergabe von Wissen und Werten."
       ],
       "pages": "D 4–5, 15",
       "origin": "Kapitel 2 · Aufgabe 2",
@@ -632,7 +632,7 @@ window.LEARNING_DATA = {
       "topic": "Staat, Familie & Maat",
       "question": "Was bedeutet «Maat»?",
       "answer": [
-        "Weltordnung · Wahrheit · Gerechtigkeit · Natur / Zusammenleben · Göttin · Feder"
+        "Maat bedeutet göttliche Weltordnung, Wahrheit und Gerechtigkeit. Sie umfasst Natur und menschliches Zusammenleben. Maat wird auch als Göttin mit einer Feder dargestellt."
       ],
       "pages": "D 4, 18",
       "origin": "Lernziel: Bedeutung der Maat",
@@ -650,7 +650,7 @@ window.LEARNING_DATA = {
       "topic": "Staat, Familie & Maat",
       "question": "Welche Bedeutung hatte Maat für den einzelnen Menschen?",
       "answer": [
-        "Wahrhaftigkeit · Gerechtigkeit · richtiges Handeln · Erziehung · Massstab im Totengericht"
+        "Menschen sollten wahrhaftig, gerecht und im Einklang mit der Ordnung handeln. Maat leitete die Erziehung und war der Massstab für die Beurteilung des Lebens im Totengericht."
       ],
       "pages": "D 4, 7, 26",
       "origin": "Lernziel: Maat für Einzelne",
@@ -669,7 +669,7 @@ window.LEARNING_DATA = {
       "topic": "Staat, Familie & Maat",
       "question": "Welche Bedeutung hatte Maat für Gesellschaft und Pharao?",
       "answer": [
-        "Pharao: Garant der Maat · Recht · Versorgung · Bewässerung · Frieden · Kult · religiöse Herrschaftslegitimation"
+        "Maat begründete die gesellschaftliche Ordnung religiös. Der Pharao sollte sie durch Recht, Versorgung, Bewässerung, Frieden und Götterkult sichern. Dadurch erhielt seine Herrschaft eine religiöse Rechtfertigung."
       ],
       "pages": "D 4, 6–8",
       "origin": "Lernziel: Maat für Staat und Gesellschaft",
@@ -689,7 +689,7 @@ window.LEARNING_DATA = {
       "topic": "Staat, Familie & Maat",
       "question": "Wie zeichnet man die ägyptische Gesellschaft als Pyramide?",
       "answer": [
-        "Pharao → Wesir / hohe Beamte / hohe Priester → Schreiber / Spezialisten → Bauern / Handwerker · Versklavte: unfrei · oben: Macht, unten: breite Basis"
+        "An der Spitze steht der Pharao, darunter Wesir, hohe Beamte und Priester. Es folgen weitere Beamte, Schreiber und Spezialisten; Bauern und Handwerker bilden die breite wirtschaftliche Basis. Versklavte Menschen waren rechtlich unfrei, aber nicht automatisch die grösste Gruppe."
       ],
       "pages": "D 5, 15, 22",
       "origin": "Kapitel 2 · Aufgabe 3",
@@ -707,7 +707,7 @@ window.LEARNING_DATA = {
       "topic": "Staat, Familie & Maat",
       "question": "Was bezeichnet «Hierarchie»?",
       "answer": [
-        "Rangordnung · oben: Befehlsgewalt · unten: Unterordnung"
+        "Hierarchie ist eine abgestufte Rangordnung. Höhergestellte haben mehr Macht und dürfen Anweisungen geben; Untergeordnete müssen sie befolgen. Ein Beispiel ist die ägyptische Gesellschaftspyramide."
       ],
       "pages": "D 5",
       "origin": "Fachbegriff",
@@ -726,7 +726,7 @@ window.LEARNING_DATA = {
       "topic": "Staat, Familie & Maat",
       "question": "Welche Aufgaben hatte der Wesir?",
       "answer": [
-        "Verwaltungsleitung · Bauaufträge · oberster Richter unter dem Pharao · Führung der Beamten"
+        "Der Wesir leitete die Verwaltung unter dem Pharao. Er vergab königliche Bauaufträge, führte die Beamten und handelte als oberster Richter im Namen des Königs."
       ],
       "pages": "D 5",
       "origin": "Kapitel 2.2",
@@ -744,7 +744,7 @@ window.LEARNING_DATA = {
       "topic": "Staat, Familie & Maat",
       "question": "Wie zeigt sich Arbeitsteilung im Aufbau der Gesellschaft?",
       "answer": [
-        "Bauern: Nahrung · Handwerker: Güter · Schreiber: Aufzeichnungen · Beamte: Verwaltung · Priester: Kult · gegenseitige Abhängigkeit"
+        "Bauern erzeugten Nahrung, Handwerker Güter, Schreiber führten Aufzeichnungen, Beamte verwalteten und Priester betreuten den Kult. Diese Gruppen waren aufeinander angewiesen, weil niemand alle Aufgaben selbst erledigte."
       ],
       "pages": "D 2, 5, 15",
       "origin": "Kapitel 2 · Aufgabe 4",
@@ -763,7 +763,7 @@ window.LEARNING_DATA = {
       "topic": "Staat, Familie & Maat",
       "question": "Wie beschreibt das Dossier die Arbeit der Bauern?",
       "answer": [
-        "Bauernmehrheit · Pacht / Ernteabgaben · Trockenzeit: Wasseranlagen · Flutzeit: Bauarbeiten · vereinfachtes Dossiermodell"
+        "Im vereinfachten Dossiermodell waren die meisten Menschen Bauern, die Land als Pächter bearbeiteten und Ernteanteile abgaben. In der Trockenzeit unterhielten sie Wasseranlagen; während der Flut konnten sie zu Bauarbeiten verpflichtet werden."
       ],
       "pages": "D 5",
       "origin": "Kapitel 2.2",
@@ -781,7 +781,7 @@ window.LEARNING_DATA = {
       "topic": "Staat, Familie & Maat",
       "question": "Was unterscheidet Fronarbeit, Sklaverei und Strafe?",
       "answer": [
-        "Fronarbeit: Pflichtdienst auch Freier · Sklaverei: persönliche Unfreiheit · Strafarbeit: gerichtlicher Zwang"
+        "Fronarbeit ist verpflichtende Arbeit für den Staat und konnte auch freie Menschen betreffen. Sklaverei bedeutet persönliche Unfreiheit. Zwangsarbeit konnte ausserdem als gerichtliche Strafe verhängt werden; diese Formen sind nicht gleichzusetzen."
       ],
       "pages": "D 5–6",
       "origin": "Kapitel 2.2",
@@ -799,7 +799,7 @@ window.LEARNING_DATA = {
       "topic": "Staat, Familie & Maat",
       "question": "Warum war der Schreiberberuf angesehen, und wer konnte ihn erlernen?",
       "answer": [
-        "Verwaltung / Überlieferung · hohes Ansehen · Ausbildung bis 12 Jahre · Palast- / Tempelschulen · stark beschränkter Zugang"
+        "Schreiber waren für Verwaltung und Wissensüberlieferung wichtig und deshalb angesehen. Die Ausbildung dauerte teils bis zu zwölf Jahre und fand vor allem in Palast- und Tempelschulen statt. Für die meisten Bauern- und Handwerkersöhne sowie Mädchen war sie kaum zugänglich."
       ],
       "pages": "D 5, 17",
       "origin": "Kapitel 2.2 / Vater-Sohn-Quelle",
@@ -818,7 +818,7 @@ window.LEARNING_DATA = {
       "topic": "Staat, Familie & Maat",
       "question": "Was erfahren wir über Entlohnung, soziale Leistungen und Konflikte?",
       "answer": [
-        "Naturallohn: Getreide / Öl / Kleidung · Streiks · medizinische Versorgung · Entschädigung bei Arbeitsunfähigkeit"
+        "Arbeitskräfte erhielten oft Güter wie Getreide, Öl und Kleidung als Lohn. Blieb die Entlohnung aus, konnte es zu Streiks kommen. Das Dossier nennt auch medizinische Versorgung und Entschädigung bei Arbeitsunfähigkeit."
       ],
       "pages": "D 6",
       "origin": "Kapitel 2.2",
@@ -836,7 +836,7 @@ window.LEARNING_DATA = {
       "topic": "Religion & Götter",
       "question": "Warum entwickelten Menschen nach dem Dossier religiöse Vorstellungen?",
       "answer": [
-        "Naturdeutung · Bedrohung / Verletzlichkeit · Sicherheit · Rituale / Opfer · historischer Erklärungsansatz"
+        "Nach dem Dossier half Religion, schwer erklärbare und bedrohliche Erscheinungen zu deuten. Rituale und Opfer sollten die Götter günstig stimmen und Sicherheit vermitteln. Das ist ein Erklärungsansatz, nicht das einzige religiöse Motiv."
       ],
       "pages": "D 6, 16",
       "origin": "Kapitel 3 · Aufgabe 1",
@@ -854,7 +854,7 @@ window.LEARNING_DATA = {
       "topic": "Religion & Götter",
       "question": "Wie spiegelt der ägyptische Schöpfungsmythos die Natur am Nil?",
       "answer": [
-        "Nilflut → auftauchendes Land · Urmeer → Urhügel · Lotus / Sonnengott → Licht / Zeit / Leben"
+        "Nach der Nilflut taucht Land aus dem Wasser auf; ähnlich entsteht im Mythos ein Urhügel aus dem Urmeer. Lotusblüte und Sonnengott stehen für den Beginn von Licht und Leben. Der Mythos deutet vertraute Naturvorgänge religiös."
       ],
       "pages": "D 6–7, 16",
       "origin": "Kapitel 3 · Aufgabe 2",
@@ -873,7 +873,7 @@ window.LEARNING_DATA = {
       "topic": "Religion & Götter",
       "question": "Gab es nur eine ägyptische Schöpfungsgeschichte?",
       "answer": [
-        "Mehrere Schöpfungsmythen · Urhügel / Lotus · Sonnengott im Ei · gemeinsam: Wasser / Land / Sonne / Ordnung"
+        "Nein, es gab mehrere Überlieferungen, etwa den Urhügel mit Lotusblüte oder den Sonnengott im Ei im Urwasser. Gemeinsam sind Wasser, Land, Sonne und die Entstehung einer geordneten Welt."
       ],
       "pages": "D 6–7",
       "origin": "Kapitel 3.1",
@@ -891,7 +891,7 @@ window.LEARNING_DATA = {
       "topic": "Religion & Götter",
       "question": "Welche Funktion hatte der Götterglaube für den ägyptischen Staat?",
       "answer": [
-        "Göttliche Königsherrschaft · Maat · Gehorsam · Kult / Opfer / Gemeinschaft · keine Erfindung eines einzelnen Pharaos"
+        "Religion erklärte die besondere Stellung des Pharaos und seine Aufgabe, Maat zu bewahren. Gehorsam konnte dadurch als religiöse Pflicht gelten. Kult, Opfer und gemeinsame Bauleistungen verbanden Bevölkerung und Herrschaft."
       ],
       "pages": "D 4, 6–8, 16, 26",
       "origin": "Kapitel 3 · Aufgabe 3",
@@ -911,7 +911,7 @@ window.LEARNING_DATA = {
       "topic": "Religion & Götter",
       "question": "Was bedeuten Polytheismus und Monotheismus?",
       "answer": [
-        "Polytheismus: mehrere Götter · Monotheismus: ein Gott · Judentum / Christentum / Islam"
+        "Polytheismus ist der Glaube an mehrere Götter, wie im alten Ägypten. Monotheismus ist der Glaube an einen Gott, wie in Judentum, Christentum und Islam."
       ],
       "pages": "D 7, 16",
       "origin": "Fachbegriffe / Kapitel 3 · Aufgabe 4",
@@ -930,7 +930,7 @@ window.LEARNING_DATA = {
       "topic": "Religion & Götter",
       "question": "Welche Gemeinsamkeiten und Unterschiede bestehen zu den genannten monotheistischen Religionen?",
       "answer": [
-        "Gemeinsam: Schöpfung / Moral / Rituale / Jenseitsvorstellungen · Ägypten: viele Götter, Königskult · Monotheismus: ein Gott, Offenbarungsschriften · innere Vielfalt"
+        "Gemeinsam sind etwa Schöpfungsvorstellungen, moralische Regeln, Rituale und Vorstellungen über den Tod hinaus. Ägypten kannte viele Götter und einen engen Königskult; Judentum, Christentum und Islam bekennen einen Gott. Die konkreten Vorstellungen unterscheiden sich auch innerhalb dieser Religionen."
       ],
       "pages": "D 6–8, 16, 23",
       "origin": "Kapitel 3 · Aufgabe 4",
@@ -948,7 +948,7 @@ window.LEARNING_DATA = {
       "topic": "Religion & Götter",
       "question": "Wie wurden Götter dargestellt, und was bedeuten Tiergestalten?",
       "answer": [
-        "Menschengestalt · Tiergestalt · Tierkopf · Attribute: Erkennung / Symbolik · keine zwingend wörtliche Vorstellung"
+        "Götter wurden als Menschen, Tiere oder Menschen mit Tierköpfen dargestellt. Tiergestalten und besondere Gegenstände machten sie erkennbar und symbolisierten Eigenschaften. Daraus folgt nicht, dass die Bilder immer wörtlich verstanden wurden."
       ],
       "pages": "D 7, 18; P 2",
       "origin": "Kapitel 3.2 / Prüfung 3c",
@@ -968,7 +968,7 @@ window.LEARNING_DATA = {
       "topic": "Religion & Götter",
       "question": "War der Pharao ein Mensch oder ein Gott?",
       "answer": [
-        "Königliche / religiöse Quellen: göttlich · andere Texte: nüchterner · Perspektive entscheidend · Sterblichkeit kein zwingender Widerspruch"
+        "Königliche und religiöse Quellen konnten den Pharao als Gott darstellen; andere Texte beurteilten ihn nüchterner. Die Antwort hängt von der Quelle und ihrer Perspektive ab. Seine Sterblichkeit schloss göttliche Macht im ägyptischen Denken nicht aus."
       ],
       "pages": "D 7–8",
       "origin": "Kapitel 3.3",
@@ -988,7 +988,7 @@ window.LEARNING_DATA = {
       "topic": "Religion & Götter",
       "question": "Wie erklärte man Sterben und Wiederkehr der Götter?",
       "answer": [
-        "Sonnenuntergang / Sonnenaufgang → Tod / Wiedergeburt Res · Weiterexistenz · Welt / Götter letztlich endlich"
+        "Sonnenuntergang und Sonnenaufgang konnten als Tod und Wiedergeburt des Sonnengottes Re verstanden werden. Tod bedeutete damit nicht zwingend das Ende der Existenz. Dennoch galten im Dossier letztlich auch Welt und Götter als endlich."
       ],
       "pages": "D 8",
       "origin": "Kapitel 3.3",
@@ -1007,7 +1007,7 @@ window.LEARNING_DATA = {
       "topic": "Religion & Götter",
       "question": "Wer durfte das Innere eines Tempels betreten?",
       "answer": [
-        "Innerster Bereich: wenige Priester / Priesterinnen · beschränkter Zugang · kein öffentlicher Versammlungsraum"
+        "Der Zugang war beschränkt; nur wenige Priester und Priesterinnen durften in den innersten Bereich. Der Tempel war kein allgemein zugänglicher Versammlungsraum."
       ],
       "pages": "D 7",
       "origin": "Kapitel 3.2",
@@ -1025,7 +1025,7 @@ window.LEARNING_DATA = {
       "topic": "Religion & Götter",
       "question": "Woran erkennt man Anubis, und wofür ist er zuständig?",
       "answer": [
-        "Schakalkopf · Einbalsamierung · Totenschutz · Waage"
+        "Anubis erscheint als Schakal oder Mensch mit Schakalkopf. Er schützt die Toten, ist für die Einbalsamierung zuständig und betreut im Totengericht die Waage."
       ],
       "pages": "D 7, 18, 26",
       "origin": "Götter erkennen und zuordnen",
@@ -1044,7 +1044,7 @@ window.LEARNING_DATA = {
       "topic": "Religion & Götter",
       "question": "Woran erkennt man Osiris, und welche Aufgabe hat er?",
       "answer": [
-        "Mumiengestalt · Totenreich · oberster Jenseitsrichter · Auferstehung · Fruchtbarkeit"
+        "Osiris wird häufig mumienförmig dargestellt. Er herrscht über das Totenreich und ist oberster Richter im Jenseits. Er steht auch für Auferstehung und Fruchtbarkeit."
       ],
       "pages": "D 7, 18, 26",
       "origin": "Götter erkennen und zuordnen",
@@ -1063,7 +1063,7 @@ window.LEARNING_DATA = {
       "topic": "Religion & Götter",
       "question": "Welche Rolle hat Maat als Göttin?",
       "answer": [
-        "Wahrheit · Gerechtigkeit · Weltordnung · Straussenfeder · Massstab im Totengericht"
+        "Maat verkörpert Wahrheit, Gerechtigkeit und Weltordnung. Ihr Zeichen ist die Straussenfeder, die im Totengericht als Massstab für die Lebensführung dient."
       ],
       "pages": "D 7, 18, 26",
       "origin": "Götter erkennen und zuordnen",
@@ -1082,7 +1082,7 @@ window.LEARNING_DATA = {
       "topic": "Religion & Götter",
       "question": "Woran erkennt man Thot, und wofür steht er?",
       "answer": [
-        "Ibiskopf · Schrift · Gelehrsamkeit · Kalender · Urteilsprotokoll"
+        "Thot erscheint als Ibis oder Mensch mit Ibiskopf. Er steht für Schrift, Gelehrsamkeit und Zeitrechnung. Im Totengericht hält er das Ergebnis fest."
       ],
       "pages": "D 7, 18, 26",
       "origin": "Götter erkennen und zuordnen",
@@ -1101,7 +1101,7 @@ window.LEARNING_DATA = {
       "topic": "Religion & Götter",
       "question": "Welche Rolle hat Horus?",
       "answer": [
-        "Falke / Falkenkopf · Himmel · Pharao · Sohn von Isis und Osiris"
+        "Horus ist der Himmelsgott mit Falkengestalt oder Falkenkopf und wird mit dem Pharao verbunden. Im Osiris-Mythos ist er der Sohn von Isis und Osiris."
       ],
       "pages": "D 7, 18, 26",
       "origin": "Götter erkennen und zuordnen",
@@ -1120,7 +1120,7 @@ window.LEARNING_DATA = {
       "topic": "Religion & Götter",
       "question": "Welche Rolle hat Isis?",
       "answer": [
-        "Mutter / Schutz · Horuskind · Götterblatt: Kuhgehörn / Sonnenscheibe · überregionaler Kult"
+        "Isis ist eine Mutter- und Schutzgöttin, oft mit dem Horuskind dargestellt. Das Götterblatt zeigt sie mit Kuhgehörn und Sonnenscheibe. Ihr Kult verbreitete sich auch ausserhalb Ägyptens."
       ],
       "pages": "D 7, 18, 26",
       "origin": "Götter erkennen und zuordnen",
@@ -1139,7 +1139,7 @@ window.LEARNING_DATA = {
       "topic": "Religion & Götter",
       "question": "Wer ist Nephthys?",
       "answer": [
-        "Totenschutz · Schwester der Isis · Namenszeichen auf dem Kopf"
+        "Nephthys schützt die Toten gemeinsam mit ihrer Schwester Isis. Auf dem Götterblatt trägt sie das Schriftzeichen ihres Namens auf dem Kopf."
       ],
       "pages": "D 7, 18, 26",
       "origin": "Götter erkennen und zuordnen",
@@ -1158,7 +1158,7 @@ window.LEARNING_DATA = {
       "topic": "Religion & Götter",
       "question": "Welche Aufgaben und Kennzeichen hat Hathor?",
       "answer": [
-        "Liebe · Schönheit · Freude · Tanz · Frauenschutz · Kuh / Kuhgehörn / Sonnenscheibe"
+        "Hathor steht für Liebe, Schönheit, Freude und Tanz und schützt Frauen. Man erkennt sie als Kuh oder als Frau mit Kuhgehörn und Sonnenscheibe."
       ],
       "pages": "D 7, 18, 26",
       "origin": "Götter erkennen und zuordnen",
@@ -1177,7 +1177,7 @@ window.LEARNING_DATA = {
       "topic": "Religion & Götter",
       "question": "Was unterscheidet Re, Chepre und Atum auf dem Götterblatt?",
       "answer": [
-        "Re: Sonne / Falkenkopf · Chepre: Morgensonne / Skarabäus / Wiedergeburt · Atum: Abendsonne / Schöpfung / Doppelkrone"
+        "Re ist der Sonnengott mit Falkenkopf und Sonnenscheibe. Chepre erscheint als Skarabäus und steht für Morgensonne und Wiedergeburt. Atum mit der Doppelkrone wird mit Abendsonne und Schöpfung verbunden."
       ],
       "pages": "D 7, 18, 26",
       "origin": "Götter erkennen und zuordnen",
@@ -1196,7 +1196,7 @@ window.LEARNING_DATA = {
       "topic": "Religion & Götter",
       "question": "Wer ist Bes?",
       "answer": [
-        "Zwergengestalt · Hausschutz · Schwangere · Kinder · Musik / Tanz / Freude"
+        "Bes ist ein zwergengestaltiger Schutzgott des Hauses, der Schwangeren und der Kinder. Er wird auch mit Musik, Tanz und Freude verbunden."
       ],
       "pages": "D 7, 18, 26",
       "origin": "Götter erkennen und zuordnen",
@@ -1215,7 +1215,7 @@ window.LEARNING_DATA = {
       "topic": "Religion & Götter",
       "question": "Wer ist Amun-Re in der Übersicht?",
       "answer": [
-        "Dossierübersicht: Sonne / Wind · Widdergestalt"
+        "Die Dossierübersicht nennt Amun-Re als Sonnen- und Windgott. Die dortige Abbildung zeigt ihn in Widdergestalt."
       ],
       "pages": "D 7, 18, 26",
       "origin": "Götter erkennen und zuordnen",
@@ -1234,7 +1234,7 @@ window.LEARNING_DATA = {
       "topic": "Tod & Jenseits",
       "question": "Warum entwickelte sich die Mumifizierung?",
       "answer": [
-        "Wüstensand: natürliche Konservierung · Särge: fehlende Austrocknung → künstliche Mumifizierung · Körpererhalt fürs Jenseits"
+        "Im trockenen Wüstensand blieben Körper natürlich erhalten. In Särgen fehlte diese direkte Austrocknung, weshalb man künstliche Konservierung entwickelte. Religiös war der Körpererhalt wichtig für das erhoffte Weiterleben im Jenseits."
       ],
       "pages": "D 25; P 2",
       "origin": "Mumienfilm · Frage 1 / Prüfung 3a",
@@ -1255,7 +1255,7 @@ window.LEARNING_DATA = {
       "topic": "Tod & Jenseits",
       "question": "Welche Jenseitsvorstellung verbindet sich mit der Mumifizierung?",
       "answer": [
-        "Körpererhalt · Tod als Übergang · Jenseitsvorsorge · zusätzlich: Rituale / Totengericht · keine Garantie"
+        "Der erhaltene Körper galt als wichtig für das Weiterleben im Jenseits. Mumifizierung allein garantierte dieses Leben aber nicht: Auch Bestattungsrituale und das Bestehen des Totengerichts gehörten dazu."
       ],
       "pages": "D 7–8, 25; P 2",
       "origin": "Mumienfilm · Frage 2 / Prüfung 3a",
@@ -1274,7 +1274,7 @@ window.LEARNING_DATA = {
       "topic": "Tod & Jenseits",
       "question": "Welche Vorbereitungen traf man für das Leben nach dem Tod?",
       "answer": [
-        "Mumifizierung · Sarg / Sarkophag · Grab · Beigaben · Texte / Bilder · Opfer / Rituale · abhängig von Zeit / Vermögen / Stellung"
+        "Man sorgte für Mumifizierung, Sarg oder Sarkophag, Grab und Beigaben wie Nahrung und Kleidung. Texte, Bilder, Opfer und Rituale unterstützten den Übergang. Die Ausstattung hing von Zeit, Vermögen und Stellung ab."
       ],
       "pages": "D 8, 25–26",
       "origin": "Mumienfilm · Frage 3",
@@ -1294,7 +1294,7 @@ window.LEARNING_DATA = {
       "topic": "Tod & Jenseits",
       "question": "Was geschah bei einer aufwendigen Mumifizierung?",
       "answer": [
-        "Organe entfernen / aufbewahren · Gehirn teils entfernt, nicht konserviert · Salz: Trocknung · Öle / Harze · Leinen · unterschiedliche Verfahren"
+        "Viele Organe wurden entfernt und gesondert aufbewahrt; das Gehirn wurde bei manchen Verfahren entfernt, aber nicht konserviert. Salz trocknete den Körper, danach folgten Öle, Harze und Leinenbinden. Die Verfahren unterschieden sich je nach Zeit und Aufwand."
       ],
       "pages": "D 25",
       "origin": "Mumienfilm · Frage 3, Vertiefung",
@@ -1314,7 +1314,7 @@ window.LEARNING_DATA = {
       "topic": "Tod & Jenseits",
       "question": "Was sollte das Mundöffnungsritual bewirken?",
       "answer": [
-        "Rituelle Wiederherstellung: Atmen / Sprechen / Essen / Trinken / Sehen / Hören · keine medizinische Wiederbelebung"
+        "Das Ritual sollte die Sinne und Lebensfunktionen des Toten wiederherstellen, etwa Sehen, Hören, Atmen und Essen. Gemeint war eine religiöse Handlung, keine medizinische Wiederbelebung."
       ],
       "pages": "D 25",
       "origin": "Mumienfilm · Frage 3, Ritual",
@@ -1334,7 +1334,7 @@ window.LEARNING_DATA = {
       "topic": "Tod & Jenseits",
       "question": "Wie verläuft das Totengericht im Dossier?",
       "answer": [
-        "Herz ↔ Maat-Feder · Anubis: Waage · Thot: Protokoll · Osiris: Richter · Gleichgewicht: Jenseits · Scheitern: Ammit"
+        "Das Herz wird gegen die Feder der Maat gewogen. Anubis betreut die Waage, Thot notiert das Ergebnis und Osiris richtet. Gleichgewicht bedeutet Bewährung und Zugang zum Jenseits; bei Scheitern droht Vernichtung durch Ammit."
       ],
       "pages": "D 7, 18, 26; P 2",
       "origin": "Prüfung 3b / Lernziel Totengericht",
@@ -1354,7 +1354,7 @@ window.LEARNING_DATA = {
       "topic": "Tod & Jenseits",
       "question": "Was bedeutet die Feder beim Wiegen des Herzens?",
       "answer": [
-        "Maat · Wahrheit · Gerechtigkeit · Lebensführung · religiöse Symbolik, keine reale Messung"
+        "Die Feder steht für Maat, also Wahrheit, Gerechtigkeit und Ordnung. Das Wiegen des Herzens symbolisiert die Prüfung der Lebensführung, keine reale physikalische Messung."
       ],
       "pages": "D 4, 7, 18, 26",
       "origin": "Prüfung 3b–c",
@@ -1375,7 +1375,7 @@ window.LEARNING_DATA = {
       "topic": "Tod & Jenseits",
       "question": "Wer ist Ammit, und welche Folge hat das Scheitern am Totengericht?",
       "answer": [
-        "«Fresserin» · Krokodil / Löwe / Nilpferd · Vernichtung · Verlust des Weiterlebens"
+        "Ammit ist ein Mischwesen aus Krokodil, Löwe und Nilpferd, die «Fresserin». Wer im Totengericht scheitert, wird von ihr mit Vernichtung bedroht und verliert das erhoffte Weiterleben."
       ],
       "pages": "D 7, 26; P 2",
       "origin": "Korrektur zu Prüfung 3b",
@@ -1396,7 +1396,7 @@ window.LEARNING_DATA = {
       "topic": "Pyramiden",
       "question": "Warum sind Pyramiden ein Symbol der ägyptischen Hochkultur?",
       "answer": [
-        "Herrschaft · Totenkult · Arbeitsteilung · Organisation · Mathematik · Handwerk · Astronomie · Versorgung / Transport"
+        "Pyramiden verbinden religiösen Totenkult mit starker Herrschaft, Arbeitsteilung und langfristiger Planung. Ihr Bau erforderte Mathematik, Handwerk, Himmelsbeobachtung sowie leistungsfähige Versorgung und Transporte."
       ],
       "pages": "D 8–10, 12, 16",
       "origin": "Kapitel 4 · Aufgabe 2 / Pyramidenfilm · Frage 5",
@@ -1415,7 +1415,7 @@ window.LEARNING_DATA = {
       "topic": "Pyramiden",
       "question": "Wie zeigt der Pyramidenbau die Standortgebundenheit der Menschen?",
       "answer": [
-        "Baugrund · Gestein · Nil / Kanäle: Transport · Holz / Spezialsteine: Fernbeschaffung"
+        "Fester Baugrund, geeignete Steine und die Nähe zu Nil und Kanälen erleichterten den Bau. Holz und manche Steine mussten dagegen aus der Ferne beschafft werden. Der Standort bestimmte deshalb Möglichkeiten und Aufwand."
       ],
       "pages": "D 8–9, 16",
       "origin": "Kapitel 4 · Aufgabe 1",
@@ -1434,7 +1434,7 @@ window.LEARNING_DATA = {
       "topic": "Pyramiden",
       "question": "Wer war am Pyramidenbau beteiligt, und wie wurde er organisiert?",
       "answer": [
-        "Fachkräfte · Transporteure · Vermesser · Bauleitung · Versorgung / Verwaltung · Pflichtarbeit · keine überwiegende Sklavenbelegschaft"
+        "Fachhandwerker, Steinbearbeiter, Transporteure, Vermesser, Bauleiter und Versorgungskräfte arbeiteten in organisierten Gruppen zusammen. Auch verpflichtete Arbeitskräfte waren beteiligt. Das Dossier weist die Vorstellung einer überwiegenden Sklavenbelegschaft zurück."
       ],
       "pages": "D 5–6, 9–10, 12",
       "origin": "Pyramidenfilm · Frage 1",
@@ -1453,7 +1453,7 @@ window.LEARNING_DATA = {
       "topic": "Pyramiden",
       "question": "Welche Probleme mussten die Erbauer der Pyramiden lösen?",
       "answer": [
-        "Steingewinnung · Bearbeitung · Transport / Heben · Nivellierung / Ausrichtung · Personalplanung · Nahrung / Wasser / Werkzeuge / Unterkunft / Hygiene"
+        "Steine mussten gewonnen, bearbeitet, transportiert und angehoben werden; Baugrund und Ausrichtung mussten stimmen. Dazu kamen die langfristige Organisation der Arbeitskräfte sowie Nahrung, Wasser, Werkzeuge, Unterkunft und Hygiene."
       ],
       "pages": "D 8–9, 12",
       "origin": "Pyramidenfilm · Frage 3",
@@ -1471,7 +1471,7 @@ window.LEARNING_DATA = {
       "topic": "Pyramiden",
       "question": "Welche technischen und wissenschaftlichen Fähigkeiten zeigt der Bau?",
       "answer": [
-        "Geometrie · Vermessung · Himmelsbeobachtung · Steinbearbeitung · Wassertransport · Schlitten / Rampen · genaue Verfahren teils ungesichert"
+        "Der Bau zeigt Kenntnisse in Geometrie, Vermessung und Himmelsbeobachtung sowie in Steinbearbeitung und Transport. Verwendet wurden unter anderem Wasserwege, Schlitten und Rampen. Einzelheiten der Bauverfahren bleiben ungesichert."
       ],
       "pages": "D 8–9",
       "origin": "Kapitel 4.1",
@@ -1489,7 +1489,7 @@ window.LEARNING_DATA = {
       "topic": "Pyramiden",
       "question": "Wie war die Versorgung der Baustelle organisiert?",
       "answer": [
-        "Transportwege · Lager · Werkstätten · Bäckereien / Küchen · Wasserträger · koordinierte Arbeitsteilung"
+        "Transportwege, Lager, Werkstätten, Bäckereien, Küchen und Wasserträger versorgten die Baustelle. Verwaltung und Arbeitsleitung koordinierten diese Aufgaben. Arbeitsteilung umfasste also weit mehr als den eigentlichen Steinbau."
       ],
       "pages": "D 9",
       "origin": "Kapitel 4.2",
@@ -1508,7 +1508,7 @@ window.LEARNING_DATA = {
       "topic": "Pyramiden",
       "question": "Welchen mythologischen Hintergrund hat der Pyramidenbau?",
       "answer": [
-        "Urhügel aus Urwasser · königliche Wiedergeburt · religiöse Deutung"
+        "Die Pyramide lässt sich mit dem Urhügel verbinden, der im Mythos aus dem Urwasser auftaucht. Sie steht auch im Zusammenhang mit der Wiedergeburt des königlichen Toten. Das ist eine religiöse Deutung."
       ],
       "pages": "D 6, 8, 12",
       "origin": "Pyramidenfilm · Frage 2",
@@ -1527,7 +1527,7 @@ window.LEARNING_DATA = {
       "topic": "Pyramiden",
       "question": "Wie erklärt der Film die drei Grabkammern der Cheopspyramide?",
       "answer": [
-        "Film fehlt → Antwort nicht zuverlässig überprüfbar · Dossier: «Planänderung?» · Bauplanänderung: Möglichkeit · Filmlösung offen"
+        "Die Filmerklärung lässt sich ohne den Film nicht zuverlässig überprüfen. Das Dossier nennt «Planänderung?» als mögliche Erklärung für eine unbenutzte Kammer. Das ist eine Vermutung, keine gesicherte Filmlösung."
       ],
       "pages": "D 9 (Schnittbild), 12",
       "origin": "Pyramidenfilm · Frage 4",
@@ -1545,7 +1545,7 @@ window.LEARNING_DATA = {
       "topic": "Pyramiden",
       "question": "Welche Aussagen eines Pyramidenfilms können Rekonstruktionen sein?",
       "answer": [
-        "Rampenverlauf · Hebetechnik · Montage · Abläufe / Dialoge · Rekonstruktion ≠ Beweis"
+        "Rampenverläufe, Hebe- und Montagetechniken sowie einzelne Abläufe oder Dialoge können rekonstruiert sein. Ein Film zeigt damit eine mögliche Erklärung. Eine anschauliche Darstellung ist noch kein historischer Beweis."
       ],
       "pages": "D 8–9, 12",
       "origin": "Pyramidenfilm · Frage 6",
@@ -1564,7 +1564,7 @@ window.LEARNING_DATA = {
       "topic": "Pyramiden",
       "question": "Welche modernen Hilfsmittel ermöglichen den Bau von Wolkenkratzern?",
       "answer": [
-        "Kräne · Pumpen · Motorfahrzeuge · Elektrowerkzeuge · Stahl / Stahlbeton · Computerstatik · digitale Vermessung"
+        "Motorisierte Kräne, Pumpen und Fahrzeuge sowie elektrische Werkzeuge erleichtern den Bau. Stahl, Stahlbeton, Computerstatik und digitale Vermessung ermöglichen heutige Leistungen. Planung und Organisation gab es dagegen schon in der Antike."
       ],
       "pages": "D 8–9, 16, 24",
       "origin": "Kapitel 4 · Aufgabe 3",
@@ -1582,7 +1582,7 @@ window.LEARNING_DATA = {
       "topic": "Pyramiden",
       "question": "Rechenaufgabe: 2,5 Mio. Blöcke in 20 Jahren – welcher mittlere Zeittakt ergibt sich?",
       "answer": [
-        "24-h-Annahme: 20 × 365 × 24 × 60 ÷ 2 500 000 = 4,2048 min ≈ 4 min 12 s / Block · Gesamttakt paralleler Teams · 10 h / Tag: ca. 1 min 45 s / Block"
+        "Bei durchgehender Arbeit: 20 × 365 × 24 × 60 ÷ 2 500 000 = 4,2048 Minuten, also etwa 4 Minuten 12 Sekunden pro Block. Das ist der Gesamttakt vieler Teams, nicht die Bauzeit eines einzelnen Blocks. Bei 10 Arbeitsstunden täglich wären es etwa 1 Minute 45 Sekunden pro Block während der Arbeitszeit."
       ],
       "pages": "D 12",
       "origin": "Pyramidenfilm · Anschlussaufgabe",
@@ -1600,7 +1600,7 @@ window.LEARNING_DATA = {
       "topic": "Pyramiden",
       "question": "Welche Rolle spielt das Gesamtgewicht in der Rechenaufgabe?",
       "answer": [
-        "Zeittakt: Gewicht unnötig · mittlere Masse: 5 995 000 t ÷ 2 500 000 = 2,398 t ≈ 2,4 t / Block"
+        "Für den Zeittakt braucht man nur Bauzeit und Blockzahl. Das Gesamtgewicht ermöglicht dagegen die mittlere Blockmasse: 5 995 000 t ÷ 2 500 000 = 2,398 t, also rund 2,4 Tonnen pro Block."
       ],
       "pages": "D 12",
       "origin": "Pyramidenfilm · Anschlussaufgabe, Vertiefung",
@@ -1618,7 +1618,7 @@ window.LEARNING_DATA = {
       "topic": "Pyramiden",
       "question": "Welche historischen Einschnitte nennt das Dossier zum Ende der ägyptischen Eigenständigkeit?",
       "answer": [
-        "332 v. Chr.: Alexander · danach: römische / arabische / osmanische / britische Herrschaft oder Kontrolle · 1922: Unabhängigkeit · Kultur kein abruptes Ende"
+        "Das Dossier nennt Alexanders Eroberung 332 v. Chr., später römische, arabische, osmanische und britische Herrschaft beziehungsweise Kontrolle sowie die Unabhängigkeit 1922. Politische Umbrüche bedeuteten kein plötzliches Ende der ägyptischen Kultur."
       ],
       "pages": "D 10",
       "origin": "Kapitel 4.3",
@@ -1636,7 +1636,7 @@ window.LEARNING_DATA = {
       "topic": "Bild- & Schriftquellen",
       "question": "In welchen drei Schritten erschliesst man eine Bildquelle?",
       "answer": [
-        "Beschreiben: Was? · Analysieren: Wie? · Interpretieren: Bedeutung / Kontext / Absicht / Grenzen"
+        "Zuerst beschreiben: Was ist sichtbar? Dann analysieren: Wie ist das Bild gestaltet? Schliesslich interpretieren: Was bedeutet es im historischen Zusammenhang, und welche Absicht und Aussagegrenzen hat es?"
       ],
       "pages": "D 13",
       "origin": "Bildquellenblatt: Methode",
@@ -1654,7 +1654,7 @@ window.LEARNING_DATA = {
       "topic": "Bild- & Schriftquellen",
       "question": "Wie beantworte ich «Wie wirkt das Bild auf mich? Was spricht mich an?»?",
       "answer": [
-        "Persönliche Wirkung + sichtbarer Beleg · Beispiel: Übergrösse → Machtwirkung · keine einzig richtige Emotion"
+        "Ich beschreibe meine persönliche Wirkung und begründe sie mit sichtbaren Merkmalen: «Die Figur wirkt mächtig, weil sie viel grösser ist.» Diese Wirkung ist subjektiv und beweist nicht die Absicht des Künstlers."
       ],
       "pages": "D 13",
       "origin": "Bildquellenblatt: Betrachterfragen",
@@ -1672,7 +1672,7 @@ window.LEARNING_DATA = {
       "topic": "Bild- & Schriftquellen",
       "question": "Was beschreibt man bei «Was ist dargestellt?»?",
       "answer": [
-        "Personen · Tiere · Gegenstände · Tätigkeiten · Kleidung · Gesten · Anordnung · Schriftzeichen · erst Befund, dann Deutung"
+        "Ich nenne sichtbare Personen, Tiere, Gegenstände, Handlungen, Kleidung, Gesten, Anordnung und Schriftzeichen. Namen, Rollen und Bedeutungen ordne ich erst mit einer Begründung zu."
       ],
       "pages": "D 13",
       "origin": "Bildquellenblatt: Inhalt",
@@ -1690,7 +1690,7 @@ window.LEARNING_DATA = {
       "topic": "Bild- & Schriftquellen",
       "question": "Wie untersucht man Naturtreue und Material einer Bildquelle?",
       "answer": [
-        "Proportionen · Perspektive · Farben · Ranggrösse · Darstellungsregeln · Original ≠ Reproduktion · Material nur mit Beleg"
+        "Ich untersuche Proportionen, Perspektive, Farben und Darstellungsregeln; Grösse kann Rang ausdrücken. Das Original ist von seiner Fotografie zu unterscheiden. Materialangaben brauchen einen Beleg und sind aus dem Foto allein oft unsicher."
       ],
       "pages": "D 13",
       "origin": "Bildquellenblatt: Naturtreue / Material",
@@ -1708,7 +1708,7 @@ window.LEARNING_DATA = {
       "topic": "Bild- & Schriftquellen",
       "question": "Welche Fragen helfen bei der Untersuchung des Bildaufbaus?",
       "answer": [
-        "Bewegung / Gegenbewegung · Blickführung · Zentrum · Vorder- / Hintergrund · Teil / Ganzes · sichtbare Belege"
+        "Ich frage nach Bewegung, Blickführung, Bildzentrum sowie Vorder- und Hintergrund. Ausserdem untersuche ich, wie die Teile zusammenwirken. Jede Aussage belege ich mit einem sichtbaren Merkmal."
       ],
       "pages": "D 13",
       "origin": "Bildquellenblatt: alle Fragen zum Aufbau",
@@ -1726,7 +1726,7 @@ window.LEARNING_DATA = {
       "topic": "Bild- & Schriftquellen",
       "question": "Wie erschliesst man Bedeutung und Aussage eines Bildes?",
       "answer": [
-        "Gestaltung + Symbole + Kontext → Bedeutung / Funktion / Absicht · Befund / Deutung / offene Fragen trennen"
+        "Ich verbinde Gestaltung und Symbole mit Entstehungszeit, Funktion und historischem Wissen. Daraus leite ich eine begründete Bedeutung oder Absicht ab. Sichtbare Befunde, Deutungen und offene Fragen bleiben getrennt."
       ],
       "pages": "D 13",
       "origin": "Bildquellenblatt: Bedeutung / Vermittlungsabsicht / Weltverhältnis",
@@ -1744,7 +1744,7 @@ window.LEARNING_DATA = {
       "topic": "Bild- & Schriftquellen",
       "question": "Beschreibe das Jagdbild aus dem Grab.",
       "answer": [
-        "Grosser Mann · Boot · erhobener Wurfstock · kleinere Begleitpersonen · Pflanzen · Vögel / Tiere · Wasser / Fische"
+        "Ein besonders grosser Mann steht mit erhobenem Wurfstock in einem Boot, begleitet von kleineren Personen. Pflanzen, Vögel, andere Tiere, Wasser und Fische umgeben ihn. Grösse und Haltung heben die Hauptfigur hervor."
       ],
       "pages": "D 13",
       "origin": "Bildquellenblatt: Anwendung Beschreibung",
@@ -1762,7 +1762,7 @@ window.LEARNING_DATA = {
       "topic": "Bild- & Schriftquellen",
       "question": "Analysiere den Aufbau des Jagdbildes.",
       "answer": [
-        "Links: übergrosse Hauptfigur · Arm / Wurfstock: Bewegung · rechts: Vögel / Pflanzen · dichte Fläche · Ranggrösse"
+        "Die übergrosse Hauptfigur dominiert links; Arm und Wurfstock erzeugen Bewegung. Rechts füllen Vögel und Pflanzen die Fläche. Die unterschiedliche Figurengrösse betont Rang statt naturgetreue Körpermasse."
       ],
       "pages": "D 13",
       "origin": "Bildquellenblatt: Anwendung Analyse",
@@ -1780,7 +1780,7 @@ window.LEARNING_DATA = {
       "topic": "Bild- & Schriftquellen",
       "question": "Wie kann man das Jagdbild im Grabzusammenhang deuten?",
       "answer": [
-        "Lebensfülle · Naturbeherrschung · Jenseitswohl · idealisiertes Grabherrenbild · kein neutraler Alltagsbericht"
+        "Das Bild kann Lebensfülle, Naturbeherrschung und den Wunsch nach Wohlergehen im Jenseits ausdrücken. Es zeigt ein idealisiertes Bild des Grabherrn, keinen neutralen Bericht über den Alltag aller Ägypter."
       ],
       "pages": "D 6–8, 13, 19",
       "origin": "Bildquellenblatt: Anwendung Interpretation",
@@ -1799,7 +1799,7 @@ window.LEARNING_DATA = {
       "topic": "Bild- & Schriftquellen",
       "question": "Was zeigt die Paarstatue, und welche Schlussfolgerungen sind zulässig?",
       "answer": [
-        "Mann / Frau · ähnliche Grösse · Nähe → Paarbindung · Identität / Liebesgeschichte / Auftraggeber / Rang: bildlich nicht gesichert"
+        "Mann und Frau stehen in ähnlicher Grösse und körperlicher Nähe nebeneinander. Das kann eine eheliche oder familiäre Verbindung ausdrücken. Identität, Liebesgeschichte, Auftraggeber und genaue Stellung sind aus dem Bild allein nicht gesichert."
       ],
       "pages": "D 4; P 1",
       "origin": "Prüfung 1a – Frage aus Antwort rekonstruiert",
@@ -1819,7 +1819,7 @@ window.LEARNING_DATA = {
       "topic": "Bild- & Schriftquellen",
       "question": "Beweist die ähnliche Grösse der Frau vollständige Gleichberechtigung?",
       "answer": [
-        "Ähnliche Grösse: Bedeutung der Partnerin · Rechtsstellung: Zusatzquellen · kein Beweis vollständiger Gleichberechtigung"
+        "Nein. Die ähnliche Grösse kann die Bedeutung der Frau innerhalb der Paarbeziehung zeigen. Vollständige Gleichberechtigung lässt sich daraus nicht ableiten; dafür braucht man weitere Quellen zu Recht und gesellschaftlichem Alltag."
       ],
       "pages": "D 3–5; P 1",
       "origin": "Prüfung 1b – Frage rekonstruiert",
@@ -1839,7 +1839,7 @@ window.LEARNING_DATA = {
       "topic": "Bild- & Schriftquellen",
       "question": "Was ist auf der abgebildeten Totengerichtsszene zu erkennen?",
       "answer": [
-        "Anubis führt / wiegt · Herz ↔ Feder · Ammit wartet · Thot schreibt · Horus führt zu Osiris · Isis / Nephthys · oben: Götter · Bildfolge"
+        "Anubis führt den Toten zur Herzwaage; Ammit wartet daneben und Thot schreibt das Ergebnis auf. Horus führt ihn anschliessend vor Osiris, hinter dem Isis und Nephthys stehen. Oben erscheinen weitere Götter; die Bildfolge zeigt mehrere Schritte."
       ],
       "pages": "D 7, 18, 26; P 2",
       "origin": "Prüfung 3c · Was ist zu sehen?",
@@ -1859,7 +1859,7 @@ window.LEARNING_DATA = {
       "topic": "Bild- & Schriftquellen",
       "question": "Stimmt die Dossierüberschrift «Totenbuch des Ani» für dieses Bild?",
       "answer": [
-        "Hunefer, nicht Ani · British Museum: EA9901,3 · falsche Dossierbeschriftung"
+        "Nein. Die Abbildung zeigt das Totengericht des Hunefer, nicht das des Ani. Der Museumsnachweis lautet British Museum, EA9901,3. Die Kartei korrigiert damit die falsche Dossierbeschriftung."
       ],
       "pages": "D 26",
       "origin": "Bildquellenkritik: Objektzuordnung",
@@ -1880,7 +1880,7 @@ window.LEARNING_DATA = {
       "topic": "Bild- & Schriftquellen",
       "question": "Woher stammt die Totengerichtsszene, und wozu diente sie?",
       "answer": [
-        "Papyrus · Totenbuch · Bestattung / Jenseitsvorsorge · Pyramidenherkunft unbelegt · religiöse Darstellung"
+        "Die Szene stammt von einem Papyrus aus einem Totenbuch. Texte und Bilder sollten das Weiterleben des Verstorbenen unterstützen. Eine Herkunft aus einer Pyramide ist für dieses Objekt nicht belegt."
       ],
       "pages": "D 26; P 2",
       "origin": "Prüfung 3c · Herkunft und Zweck",
@@ -1902,7 +1902,7 @@ window.LEARNING_DATA = {
       "topic": "Bild- & Schriftquellen",
       "question": "Worüber gibt die Totengerichtsszene Auskunft – und worüber nicht?",
       "answer": [
-        "Belegt: Jenseitsglaube / Moral / Götterrollen / Heilserwartung · unbelegt: reales Jenseits / tatsächlicher Gerichtsablauf"
+        "Die Szene zeigt Vorstellungen über Jenseits, Moral und die Aufgaben der Götter. Sie beweist weder die wirkliche Existenz des Jenseits noch einen tatsächlich abgelaufenen Gerichtsprozess."
       ],
       "pages": "D 7, 13, 26; P 2",
       "origin": "Prüfung 3c · Aussagewert",
@@ -1922,7 +1922,7 @@ window.LEARNING_DATA = {
       "topic": "Bild- & Schriftquellen",
       "question": "Welche Grundfragen stellt man an eine Schriftquelle?",
       "answer": [
-        "Wer? · Wann? · Wo? · An wen? · Was? · Textart / Sprache? · Absicht? · Überlieferung / zeitlicher Abstand? · Unbekanntes kennzeichnen"
+        "Ich frage nach Verfasser, Zeit, Ort, Adressaten, Inhalt, Textart, Sprache und Absicht. Dazu kommen Überlieferung und zeitlicher Abstand zu den Ereignissen. Fehlende Angaben kennzeichne ich als unbekannt."
       ],
       "pages": "D 17; P 3",
       "origin": "Prüfung 4b / W-Fragen zur Textquelle",
@@ -1941,7 +1941,7 @@ window.LEARNING_DATA = {
       "topic": "Bild- & Schriftquellen",
       "question": "Was lässt sich über Autor, Zeit, Adressat und Textart der Vater-Sohn-Quelle sagen?",
       "answer": [
-        "Überschrift: ca. 2000 v. Chr. · Vater → Sohn · Weisheitslehre · Autor unbekannt · Sprecher ≠ Verfasser · Pharaoauftrag unbelegt"
+        "Die Überschrift nennt ungefähr 2000 v. Chr.; ein Vater belehrt einen Sohn im Stil einer Weisheitslehre. Der tatsächliche Autor ist unbekannt und nicht mit der Sprecherfigur gleichzusetzen. Ein Auftrag des Pharaos ist nicht belegt."
       ],
       "pages": "D 4, 17",
       "origin": "Vater-Sohn-Quelle · Wer? Wann? An wen? Textart?",
@@ -1959,7 +1959,7 @@ window.LEARNING_DATA = {
       "topic": "Bild- & Schriftquellen",
       "question": "Was ist die Hauptaussage und Absicht der Vater-Sohn-Quelle?",
       "answer": [
-        "Handwerksberufe: Belastungen · Schreiberberuf: Vorteile · Schreibausbildung empfehlen · Statuswerbung"
+        "Der Text schildert die Belastungen handwerklicher Berufe und stellt den Schreiberberuf als vorteilhaft dar. Er soll den Sohn zum Schreibenlernen bewegen und wirbt für Bildung und den Status der Schriftkundigen."
       ],
       "pages": "D 17",
       "origin": "Vater-Sohn-Quelle · Was? Warum?",
@@ -1978,7 +1978,7 @@ window.LEARNING_DATA = {
       "topic": "Bild- & Schriftquellen",
       "question": "Mit welchen sprachlichen Mitteln wirkt die Vater-Sohn-Quelle?",
       "answer": [
-        "Aufzählungen · drastische Bilder · Vergleiche · Übertreibungen · Gegensätze · direkte Empfehlung"
+        "Der Text nutzt Aufzählungen, drastische Bilder, Vergleiche und Übertreibungen. Belastete Handwerker werden dem angesehenen Schreiber gegenübergestellt. Diese Gegensätze sollen die Empfehlung zur Schreibausbildung überzeugend machen."
       ],
       "pages": "D 17",
       "origin": "Vater-Sohn-Quelle · Wie?",
@@ -1996,7 +1996,7 @@ window.LEARNING_DATA = {
       "topic": "Bild- & Schriftquellen",
       "question": "Wie beurteilt man den Aussagewert der Vater-Sohn-Quelle kritisch?",
       "answer": [
-        "Schriftkundige Perspektive · Berufs- / Rangvorstellungen · Eigenwerbung · Überzeichnung · keine Repräsentativität · Quellenvergleich"
+        "Die Quelle zeigt die Berufsbewertung und Eigenwerbung einer schriftkundigen Perspektive. Wegen ihrer Übertreibungen ist sie kein repräsentativer Bericht über alle Arbeitsbedingungen. Ihre Aussagen müssen mit anderen Quellen verglichen werden."
       ],
       "pages": "D 5, 17",
       "origin": "Vater-Sohn-Quelle · Analyse und Interpretation",
@@ -2015,7 +2015,7 @@ window.LEARNING_DATA = {
       "topic": "Bild- & Schriftquellen",
       "question": "Warum helfen Entstehungszeit, Perspektive und Absicht bei der Quellenkritik?",
       "answer": [
-        "Zeitabstand · Perspektive · Absicht → Auswahl / Wertung / Übertreibung · Augenzeuge ≠ zuverlässig · spätere Quelle ≠ wertlos · Gegenprüfung"
+        "Zeit, Stellung und Absicht helfen zu erkennen, warum eine Quelle bestimmte Dinge auswählt oder übertreibt. Augenzeugen sind nicht automatisch zuverlässig, spätere Texte nicht automatisch wertlos. Entscheidend sind überprüfbare Aussagen und Quellenvergleiche."
       ],
       "pages": "D 17; P 3",
       "origin": "Prüfung 4c – Frage rekonstruiert",
@@ -2034,7 +2034,7 @@ window.LEARNING_DATA = {
       "topic": "Bild- & Schriftquellen",
       "question": "Kann man den unbekannten Prüfungstext allein wegen «König», alter Sprache und Masseinheit datieren?",
       "answer": [
-        "König / Masse / Sprache: nur Hinweise · Übersetzungsproblem · Originaltext fehlt → Datierung nicht überprüfbar"
+        "Nein. Könige, Masseinheiten und alte Sprache geben höchstens Hinweise; auch eine Übersetzung kann die Sprache prägen. Der Originaltext zu Prüfung 4a fehlt, deshalb bleibt eine genaue Datierung ungeprüft."
       ],
       "pages": "P 3",
       "origin": "Prüfung 4a – Frage aus Antwort rekonstruiert",
@@ -2053,7 +2053,7 @@ window.LEARNING_DATA = {
       "topic": "Bild- & Schriftquellen",
       "question": "Wie kann ein Vergleich mit modernen Bildern bei der Analyse helfen?",
       "answer": [
-        "Idealisierung · Statussymbole · Perspektive · Grösse / Farbe · Gemeinsamkeiten / Unterschiede · moderne Sehgewohnheiten kritisch prüfen"
+        "Ein Vergleich macht etwa Idealisierung, Statussymbole, Perspektive und Grössenunterschiede bewusster. Er hilft beim genauen Hinsehen. Moderne Sehgewohnheiten dürfen aber nicht ungeprüft auf antike Bilder übertragen werden."
       ],
       "pages": "D 13",
       "origin": "Bildquellenblatt: Vergleichsanregung",
@@ -2071,7 +2071,7 @@ window.LEARNING_DATA = {
       "topic": "Griechenland · Ergänzung",
       "question": "Wie hing die Arbeit griechischer Bauern vom Jahreslauf ab?",
       "answer": [
-        "Regen / Temperatur · Herbst–Winter: Pflügen / Aussaat · Ende Frühling–Sommerbeginn: Ernte · Holz / Vorräte · regionale Unterschiede"
+        "Die Arbeiten folgten Regen und Temperatur: Pflügen und Aussaat lagen unter anderem im Herbst und Winter, die Ernte gegen Ende des Frühlings oder zu Sommerbeginn. Hinzu kamen Holzbeschaffung und Vorratspflege. Einzelheiten variierten nach Region und Pflanzenart."
       ],
       "pages": "P 4",
       "origin": "Prüfung 5a – Thema rekonstruiert",
@@ -2092,7 +2092,7 @@ window.LEARNING_DATA = {
       "topic": "Griechenland · Ergänzung",
       "question": "Welche sozialen Probleme konnten griechische Bauern haben?",
       "answer": [
-        "Landmangel · Ernteabhängigkeit · Schulden · archaisches Athen: Gläubigerabhängigkeit / Schuldknechtschaft · kein allgemeines «Königsland»"
+        "Landmangel, unsichere Ernten und Schulden konnten Bauern in Not bringen. Im archaischen Athen gab es Abhängigkeit von reichen Gläubigern und Schuldknechtschaft. Nicht alle griechischen Bauern arbeiteten auf «Land des Königs»."
       ],
       "pages": "P 4",
       "origin": "Prüfung 5a – soziale Lage",
@@ -2113,7 +2113,7 @@ window.LEARNING_DATA = {
       "topic": "Griechenland · Ergänzung",
       "question": "Was trennte und was verband die griechische Welt?",
       "answer": [
-        "Trennend: Gebirge / Inseln / Poleis · verbindend: Meerhandel / Sprache / Religion / Heiligtümer / Feste · Delphi · Kultur ≠ politische Einheit"
+        "Gebirge, Inseln und getrennte Siedlungsräume begünstigten selbstständige Stadtstaaten. Meerhandel, Sprache, Religion und gemeinsame Feste oder Heiligtümer wie Delphi verbanden sie. Kulturelle Gemeinsamkeit bedeutete keine politische Einheit."
       ],
       "pages": "P 4",
       "origin": "Prüfung 5b – Thema rekonstruiert",
@@ -2135,7 +2135,7 @@ window.LEARNING_DATA = {
       "topic": "Repetition & Begriffe",
       "question": "Wie nutze ich die Unterlagen für eine wirksame Repetition?",
       "answer": [
-        "Lernziele prüfen · frei erinnern · nachlesen · Begriffe klären · Zusammenhänge skizzieren · Aufgaben lösen · gemischt wiederholen · Lücken erneut üben"
+        "Zuerst Lernziele prüfen und den Stoff aus dem Gedächtnis erklären, danach nachlesen und Begriffe klären. Zusammenhänge skizzieren und Aufgaben lösen. Zum Schluss gemischt wiederholen und unsichere Antworten erneut üben."
       ],
       "pages": "D 11",
       "origin": "Vorbereitungsblatt · Schritte 1–3 und Unterfragen",
@@ -2153,7 +2153,7 @@ window.LEARNING_DATA = {
       "topic": "Repetition & Begriffe",
       "question": "Was bedeuten Quelle, Darstellung, Mythos und Ritual?",
       "answer": [
-        "Quelle: historisches Zeugnis · Darstellung: spätere Aufbereitung · Mythos: religiöse Erzählung · Ritual: geregelte Symbolhandlung"
+        "Eine Quelle ist ein überliefertes Zeugnis, eine Darstellung eine spätere erklärende Aufbereitung. Ein Mythos ist eine religiös deutende Erzählung. Ein Ritual ist eine geregelte symbolische Handlung."
       ],
       "pages": "D 6–8, 13, 17",
       "origin": "Fachbegriffe der Lernziele",
@@ -2174,7 +2174,7 @@ window.LEARNING_DATA = {
       "topic": "Repetition & Begriffe",
       "question": "Was bedeuten Verwaltung, Abgaben, Naturalien und Vorratswirtschaft?",
       "answer": [
-        "Verwaltung: Organisation / Aufzeichnungen · Abgaben: Pflichtleistungen · Naturalien: Güter statt Geld · Vorratswirtschaft: Versorgung / Krisenvorsorge"
+        "Verwaltung organisiert Aufgaben und Aufzeichnungen. Abgaben sind verpflichtende Leistungen, etwa Ernteanteile. Naturalien sind Güter statt Geld; Vorratswirtschaft lagert Erzeugnisse für spätere Versorgung und Krisen."
       ],
       "pages": "D 2–3, 5–6",
       "origin": "Fachbegriffe der Lernziele",
@@ -2194,7 +2194,7 @@ window.LEARNING_DATA = {
       "topic": "Repetition & Begriffe",
       "question": "Was bedeuten Sarkophag, Mumie, Papyrus und Totenkult?",
       "answer": [
-        "Sarkophag: Totenbehälter, oft Stein · Mumie: konservierter Körper · Papyrus: Schreibstoff / Dokument · Totenkult: Bestattung / Erinnerung / Versorgung"
+        "Ein Sarkophag ist ein Totenbehälter, häufig aus Stein; eine Mumie ist ein konservierter Körper. Papyrus bezeichnet einen pflanzlichen Schreibstoff oder ein darauf geschriebenes Dokument. Totenkult umfasst Bestattung, Erinnerung und Versorgung der Verstorbenen."
       ],
       "pages": "D 6–8, 25–26",
       "origin": "Fachbegriffe der Lernziele",
@@ -2213,7 +2213,7 @@ window.LEARNING_DATA = {
       "topic": "Repetition & Begriffe",
       "question": "Was bedeutet das Anch-Zeichen in den Notizen?",
       "answer": [
-        "Anch / Ankh: Leben · Zeichen: Bedeutung / Lautwert"
+        "Das Anch- oder Ankh-Zeichen bedeutet «Leben». Ein ägyptisches Schriftzeichen kann sowohl eine Bedeutung als auch einen Lautwert haben."
       ],
       "pages": "D 22",
       "origin": "Ergänzende Heftnotiz: Anch",
@@ -2232,7 +2232,7 @@ window.LEARNING_DATA = {
       "topic": "Repetition & Begriffe",
       "question": "Warum darf man Häkchen und Schulnoten nicht mit einer wissenschaftlichen Bestätigung verwechseln?",
       "answer": [
-        "Schulkorrektur ≠ Fachnachweis · Notizen: Verkürzungen / Verwechslungen · Dossier- / Quellenabgleich · Lücken kennzeichnen"
+        "Eine Schulkorrektur kann eine Teilantwort anerkennen, ohne jede Formulierung fachlich zu bestätigen. Schülernotizen können Verkürzungen oder Verwechslungen enthalten. Deshalb werden Aussagen mit Dossier und Quellen abgeglichen; verbleibende Lücken bleiben gekennzeichnet."
       ],
       "pages": "D 11, 13, 17; P 1–4",
       "origin": "Prüfungsrepetition: Umgang mit Musterantworten",
