@@ -23,6 +23,7 @@
   }
   function read() {
     if (!supported || !question || document.hidden) return;
+    window.OralAnswer?.stop();
     stop();
     const utterance = new SpeechSynthesisUtterance(question);
     const voices = synth.getVoices();

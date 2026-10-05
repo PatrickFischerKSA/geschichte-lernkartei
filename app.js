@@ -67,7 +67,7 @@
     $('card').style.height = `${face.scrollHeight}px`;
   }
   function setFlip(value) {
-    if (value) window.QuestionReader.stop();
+    if (value) { window.QuestionReader.stop(); window.OralAnswer.stop(); }
     flipped = value;
     $('card').classList.toggle('flipped', value);
     $('front').inert = value; $('front').setAttribute('aria-hidden', String(value));
@@ -78,6 +78,7 @@
     resizeCard();
   }
   function render() {
+    window.OralAnswer.reset();
     window.QuestionReader.setQuestion(null);
     updateGameUI();
     if (playMode !== 'free' && (!round || !round.queue.length)) {
@@ -113,6 +114,7 @@
     $('prev').disabled = index === 0; $('next').disabled = index === total - 1;
     document.querySelector('.card-nav').hidden = !!round;
     document.querySelector('.keyboard').textContent = round ? 'LEERTASTE wenden · 1 noch üben · 2 gewusst' : 'LEERTASTE wenden · ← → blättern · 1 noch üben · 2 gewusst';
+    window.OralAnswer.setAvailable(true);
     setFlip(false);
     if (!$('study-view').hidden) window.QuestionReader.setQuestion(c.question);
   }
@@ -208,6 +210,7 @@
   }
   function resetFilters() { setLevel('profi'); topic = 'all'; $('search').value = ''; $('mode').value = 'all'; $('goal-filter').value = 'all'; index = 0; }
   function switchView(showGoals) {
+    window.OralAnswer.stop();
     window.QuestionReader.stop();
     $('study-view').hidden = showGoals; $('goals-view').hidden = !showGoals;
     $('study-tab').classList.toggle('active', !showGoals); $('study-tab').setAttribute('aria-pressed', String(!showGoals));

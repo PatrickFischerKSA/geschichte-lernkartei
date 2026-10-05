@@ -10,6 +10,7 @@
   <script defer src="data.js"></script>
   <script defer src="learning.js"></script>
   <script defer src="speech.js"></script>
+  <script defer src="oral.js"></script>
   <script defer src="app.js"></script>
 </head>
 <body>
@@ -53,6 +54,15 @@
               <div class="face front" id="front"><div class="card-meta"><span id="topic-label"></span><span id="card-id"></span></div><div class="question-body"><p class="eyebrow">FRAGE · <span id="card-level"></span></p><h2 id="question"></h2><figure id="question-figure" hidden><img id="question-image" alt=""><figcaption id="image-caption"></figcaption></figure></div><div class="card-bottom"><span id="origin"></span><span aria-hidden="true">↻</span></div></div>
               <div class="face back" id="back" inert aria-hidden="true"><div class="card-meta"><span>MODELLANTWORT</span><span id="status-label"></span></div><div id="answer" class="answer"></div><aside id="answer-note" class="answer-note" hidden></aside><div class="source"><strong>Zum Nachprüfen</strong><p id="source"></p><div id="external-links"></div></div></div>
             </article></div>
+            <section class="audio-panel oral-panel" aria-labelledby="oral-title">
+              <h2 id="oral-title">Deine Antwort – sprechen oder tippen</h2>
+              <p>Die Spracherkennung deines Browsers kann Audio an einen externen Sprachdienst senden und Internet benötigen. Sie startet nur per Klick mit deiner Mikrofonfreigabe.</p>
+              <div class="audio-controls"><button id="oral-start">Mündlich antworten</button><button id="oral-stop" disabled>Aufnahme beenden</button></div>
+              <p id="oral-status" role="status" aria-live="polite"></p>
+              <label for="oral-text">Deine Antwort</label><textarea id="oral-text" rows="4" placeholder="Hier erscheint deine gesprochene Antwort. Du kannst auch tippen."></textarea>
+              <button id="oral-clear" class="text-button">Antwort löschen</button>
+              <small>Keine automatische Bewertung. Text mit der Modellantwort vergleichen. Beim Kartenwechsel wird dein Antworttext gelöscht; die App speichert ihn nicht.</small>
+            </section>
             <button id="flip" class="flip-button" aria-controls="card" aria-expanded="false">Antwort aufdecken <span aria-hidden="true">↻</span></button>
             <div class="rating" id="rating" hidden><button id="again">↺ Noch üben</button><button id="known">✓ Gewusst</button></div>
             <div class="card-nav"><button id="prev" aria-label="Vorherige Karte">← <span>Zurück</span></button><span id="position"></span><button id="next" aria-label="Nächste Karte"><span>Weiter</span> →</button></div>
