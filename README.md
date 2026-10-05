@@ -110,3 +110,18 @@ Die App speichert weder Tonaufnahmen noch Antworttexte. Die [Browser-Spracherken
 Die Erkennungssprache ist zwischen Deutsch und Deutsch (Schweiz) wählbar; das garantiert keine Dialekterkennung. Die App fordert bis zu drei Erkennungsalternativen an. Liefert der Browser Varianten, kann nach Aufnahmeende eine Alternative für den zuletzt angebotenen Abschnitt ausgewählt werden. Die Modellantwort beeinflusst die Transkription nicht. Vorläufige Wörter stehen getrennt vom bestätigten Text; bei einem Abbruch bleiben sie als unbestätigter Hinweis sichtbar. Weitersprechen ergänzt bestätigten Text. Ein Stopptimeout beendet eine hängen gebliebene Sitzung.
 
 «Begriffe abgleichen» vergleicht den Text lokal mit den redaktionell hinterlegten Begriffen und Synonymen in `concepts.js`. Der Vergleich normalisiert Grossschreibung, Umlaute und ß und nutzt nur ausdrücklich hinterlegte Wortformen. Er zeigt erkannte und nicht erkannte Begriffe, ohne Punkte oder Lernbewertungen zu verändern. Verneinungen und Einschränkungen lösen einen Prüfhinweis aus. Das ist keine semantische Richtig/Falsch-Prüfung: Vertauschte Rollen, falsche Zahlen oder vollständige Zusammenhänge werden nicht zuverlässig beurteilt, und nicht hinterlegte Umschreibungen können fehlen. Karten mit fehlender Quelle erhalten keinen Abgleich.
+
+
+## Lernstand langfristig sichern
+
+Bewertungen, XP, abgeschlossene Runden, Wiederholungstermine und das Niveau werden nach jeder Änderung automatisch als gemeinsamer Datensatz gespeichert. Zusätzlich werden bis zu 20 verschiedene Sicherungsstände in einem zweiten lokalen Browserspeicher (IndexedDB) aufbewahrt. Beim Start wird die neueste gültige Sicherung geladen; die bisherigen Lernstände werden ohne erneute Eingabe übernommen. Geschichte und Geografie haben getrennte Kennungen und lassen sich nicht versehentlich ineinander importieren.
+
+Unter **Auswahl & Lernstand → Lernstand sichern & wiederherstellen**:
+- **Backup herunterladen:** JSON-Datei ausserhalb des Browsers aufbewahren, etwa im eigenen Cloud-Ordner; am besten nach jeder längeren Lerneinheit.
+- **Backup-Datei laden:** auf einem anderen Gerät oder nach gelöschten Browserdaten importieren. Die Datei wird geprüft; vor dem Ersetzen erscheint eine Bestätigung.
+- **Sicherungsstand wiederherstellen:** einen der letzten 20 lokalen Stände auswählen, etwa nach einem versehentlichen Reset.
+- **Dauerhaften Speicher anfragen:** der Browser kann Schutz vor automatischem Aufräumen gewähren. Das schützt nicht vor manuellem Löschen, Geräteverlust oder einem privaten Browserfenster.
+
+Es gibt keine automatische Synchronisierung und keinen Server für Lernstände. Alle lokalen Kopien können beim Löschen sämtlicher Website-Daten verloren gehen; für diesen Fall ist die externe Backup-Datei erforderlich. Aktive Spielrunden, gesprochene Antworten und Tonaufnahmen werden nicht gesichert. Nach einem Reset bleibt der vorige Lernstand in den letzten Sicherungen wiederherstellbar, bis ältere Stände verdrängt werden.
+
+Die App zeigt Speicherfehler an und erlaubt auch dann einen Export des aktuellen Lernstands. Die Browserprüfung in `tests/backup-browser.cjs` testet die automatische Sicherung, IndexedDB-Wiederherstellung, Reset-Rücknahme, Dateiimport in einem frischen Profil, Dateiprüfung und gesperrte Browserspeicher.

@@ -33,3 +33,5 @@
 .oral-panel{margin-top:18px}.oral-panel textarea{display:block;width:100%;box-sizing:border-box;font:inherit;line-height:1.6;padding:12px;border:1px solid var(--line);border-radius:8px;background:var(--white);color:var(--ink);resize:vertical}.oral-panel label{display:block;font-size:14px;margin-bottom:8px}
 
 .oral-interim{font-style:italic;color:var(--muted)}#oral-result{border-left:3px solid var(--green);padding:4px 12px;margin-top:12px;background:#edf2df}#oral-result p{overflow-wrap:anywhere}
+
+.backup-panel{margin:18px 0;border-block:1px solid var(--line);padding:14px 0;font-size:14px;line-height:1.5}.backup-panel summary{cursor:pointer;font-weight:600}.backup-panel button{display:block;width:100%;margin:8px 0;font-size:13px}.backup-panel input{max-width:100%;font-size:12px}.backup-panel p{overflow-wrap:anywhere}

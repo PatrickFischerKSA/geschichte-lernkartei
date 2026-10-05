@@ -1,18 +1,20 @@
 /* Static card data and browser-local progress; speech is handled in speech.js. */
-(() => {
+(async () => {
   'use strict';
   const { cards, goals, sources } = window.LEARNING_DATA;
   const $ = id => document.getElementById(id);
   const KEY = 'geschichte-zum-wenden:v1';
   const GAME_KEY = 'geschichte-zum-wenden:training:v1';
   const LEVEL_KEY = 'geschichte-zum-wenden:level:v1';
+  document.querySelector('main').inert = true;
+  const recovered = await window.LearningBackup.init({subject:'geschichte', ids:cards.map(c=>c.id), keys:{progress:KEY,training:GAME_KEY,level:LEVEL_KEY}});
   const levels = {
     basis: {rank:0, label:'Basis', description:'Begriffe, Fakten und grundlegende Abläufe sicher wiedergeben.'},
     vertieft: {rank:1, label:'Vertieft', description:'Zusammenhänge erklären und Ursachen verstehen. Enthält auch die Basis-Karten.'},
     profi: {rank:2, label:'Profi', description:'Quellen kritisch prüfen, vergleichen und Wissen anwenden. Enthält alle Karten, auch Basis und Vertieft.'}
   };
   let level = 'basis';
-  try { const saved = localStorage.getItem(LEVEL_KEY); if (Object.hasOwn(levels, saved)) level = saved; } catch {}
+  try { const saved = recovered?.level || localStorage.getItem(LEVEL_KEY); if (Object.hasOwn(levels, saved)) level = saved; } catch {}
   const inLevel = c => levels[c.level].rank <= levels[level].rank;
   const L = window.Learning;
   let playMode = 'free', round = null, training;
@@ -20,12 +22,12 @@
   let progress = {}, topic = 'all', order = cards.map(c => c.id), selection = [], index = 0, flipped = false;
   const validIds = new Set(order);
   try {
-    const saved = JSON.parse(localStorage.getItem(KEY) || '{}');
+    const saved = recovered?.progress || JSON.parse(localStorage.getItem(KEY) || '{}');
     if (saved && typeof saved === 'object') for (const [id, value] of Object.entries(saved)) {
       if (validIds.has(id) && ['known', 'again'].includes(value)) progress[id] = value;
     }
   } catch { $('storage-warning').hidden = false; }
-  try { training = L.restore(JSON.parse(localStorage.getItem(GAME_KEY) || 'null'), progress, validIds); }
+  try { training = L.restore(recovered?.training || JSON.parse(localStorage.getItem(GAME_KEY) || 'null'), progress, validIds); }
   catch { training = L.restore(null, progress, validIds); }
   const escape = text => String(text).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const norm = s => s.toLocaleLowerCase('de-CH').normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/ß/g, 'ss');
@@ -47,7 +49,7 @@
   }
   $('status-summary').innerHTML = Object.entries(statuses).map(([s, label]) => `<span>${cards.filter(c => c.status === s).length} ${label}</span>`).join('');
   $('bibliography').innerHTML = Object.values(sources).map(s => `<li><a href="${escape(s.url)}" target="_blank" rel="noopener noreferrer">${escape(s.title)}</a></li>`).join('');
-  function save() { try { localStorage.setItem(KEY, JSON.stringify(progress)); localStorage.setItem(GAME_KEY, JSON.stringify(training)); } catch { $('storage-warning').hidden = false; } }
+  function save() { void window.LearningBackup.save({progress, training, level}); }
   function updateProgress() {
     const n = Object.values(progress).filter(v => v === 'known').length;
     $('progress').value = n; $('progress').max = cards.length; $('progress-text').textContent = `${n} / ${cards.length}`;
@@ -205,7 +207,7 @@
   }
   function setLevel(value) {
     level = value; round = null; index = 0; flipped = false;
-    try { localStorage.setItem(LEVEL_KEY, level); } catch { $('storage-warning').hidden = false; }
+    save();
     $('round-feedback').hidden = true; refresh();
   }
   function resetFilters() { setLevel('profi'); topic = 'all'; $('search').value = ''; $('mode').value = 'all'; $('goal-filter').value = 'all'; index = 0; }
@@ -254,4 +256,7 @@
   $('question-image').addEventListener('load', resizeCard);
   new ResizeObserver(() => { if (!$('study-view').hidden && selection.length) resizeCard(); }).observe($('study'));
   refresh();
+  save();
+  document.querySelector('main').inert = false;
+  document.documentElement.dataset.learningReady = 'true';
 })();

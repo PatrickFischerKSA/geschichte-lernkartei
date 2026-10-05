@@ -6,16 +6,16 @@ const {cards}=require('../cards.json');
  try {
  const page=await browser.newPage({viewport:{width:390,height:844},reducedMotion:'reduce'}),errors=[];
  page.on('pageerror',e=>errors.push(e.message));
- await page.goto(process.env.TEST_URL||'http://127.0.0.1:8765');
+ await page.goto(process.env.TEST_URL||'http://127.0.0.1:8765');await page.waitForFunction(()=>document.documentElement.dataset.learningReady==='true');
  const ranks={basis:0,vertieft:1,profi:2};
  for(const level of Object.keys(ranks)){
   await page.locator(`[data-level="${level}"]`).click();
   const expected=cards.filter(c=>ranks[c.level]<=ranks[level]).length;
   assert.match(await page.locator('#deck-count').innerText(),new RegExp(`^${expected} Karten`));
-  await page.reload();assert.equal(await page.locator(`[data-level="${level}"]`).getAttribute('aria-pressed'),'true');
+  await page.reload();await page.waitForFunction(()=>document.documentElement.dataset.learningReady==='true');assert.equal(await page.locator(`[data-level="${level}"]`).getAttribute('aria-pressed'),'true');
  }
  await page.evaluate(()=>localStorage.setItem('geschichte-zum-wenden:v1',JSON.stringify({H01:'again',H03:'again',H11:'again'})));
- await page.reload();await page.locator('[data-play="review"]').click();
+ await page.reload();await page.waitForFunction(()=>document.documentElement.dataset.learningReady==='true');await page.locator('[data-play="review"]').click();
  for(const [level,count] of [['basis',1],['vertieft',2],['profi',3]]){
   await page.locator(`[data-level="${level}"]`).click();assert.equal(await page.locator('#due-count').innerText(),String(count));
  }

@@ -13,6 +13,7 @@
   <script defer src="concepts.js"></script>
   <script defer src="answer-check.js"></script>
   <script defer src="oral.js"></script>
+  <script defer src="backup.js"></script>
   <script defer src="app.js"></script>
 </head>
 <body>
@@ -33,7 +34,15 @@
           <label for="goal-filter">Lernziel</label><select id="goal-filter"><option value="all">Alle Lernziele</option></select>
           <div id="topic-list" class="topics" aria-label="Themen"></div>
           <label for="mode">Wiederholen</label><select id="mode"><option value="all">Alle Karten</option><option value="new">Noch nicht bewertet</option><option value="again">Noch üben</option><option value="known">Gewusst</option><option value="notes">Korrekturen & Ergänzungen</option><option value="open">Offene Quellenfragen</option></select>
-          <div class="progress-block"><div><span>Dein Lernstand</span><strong id="progress-text">0 / 112</strong></div><progress id="progress" max="112" value="0" aria-label="Als gewusst markierte Karten"></progress><small>Speicherung nur in diesem Browser.</small><p id="storage-warning" class="warning" hidden>Speicherung nicht verfügbar. Dein Lernstand gilt nur bis zum Schliessen.</p></div>
+          <div class="progress-block"><div><span>Dein Lernstand</span><strong id="progress-text">0 / 112</strong></div><progress id="progress" max="112" value="0" aria-label="Als gewusst markierte Karten"></progress><small>Automatische Sicherungen in diesem Browser. Backup-Datei für Gerätewechsel herunterladen.</small><p id="storage-warning" class="warning" hidden>Speicherung nicht verfügbar. Dein Lernstand gilt nur bis zum Schliessen.</p></div>
+          <details class="backup-panel"><summary>Lernstand sichern & wiederherstellen</summary>
+            <p id="backup-status" role="status">Lernstand wird geladen …</p>
+            <button id="backup-export">Backup herunterladen</button>
+            <label for="backup-import">Backup-Datei laden</label><input type="file" id="backup-import" accept=".json,application/json">
+            <label for="backup-history">Letzte Sicherungsstände</label><select id="backup-history"></select><button id="backup-restore" disabled>Sicherungsstand wiederherstellen</button>
+            <button id="backup-persist">Dauerhaften Speicher anfragen</button><p id="backup-persistence">Der Browser entscheidet, ob er den Speicher vor automatischem Aufräumen schützt.</p>
+            <p>Bewertungen, XP, Wiederholungstermine und Niveau werden automatisch gesichert. Für Gerätewechsel oder gelöschte Browserdaten brauchst du eine heruntergeladene Backup-Datei. Keine automatische Synchronisierung. Sprachaufnahmen und Antworttexte sind nicht enthalten.</p>
+          </details>
           <button id="reset" class="text-button">Lernstand zurücksetzen</button><div id="reset-confirm" hidden><p>Alle Bewertungen, Wiederholungstermine, XP und Runden löschen?</p><button id="reset-yes">Zurücksetzen</button> <button id="reset-no">Abbrechen</button></div>
         </aside>
         <section class="study" id="study" tabindex="-1" aria-label="Aktuelle Lernkarte">

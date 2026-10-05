@@ -3,6 +3,6 @@ const path = require('node:path');
 const root = path.join(__dirname, '..');
 const dest = path.join(root, 'dist');
 fs.mkdirSync(dest, { recursive: true });
-for (const name of ['index.html','styles.css','app.js','learning.js','speech.js','oral.js','concepts.js','answer-check.js','data.js','cards.json','assets','docs']) {
+for (const name of ['index.html','styles.css','app.js','learning.js','backup.js','speech.js','oral.js','concepts.js','answer-check.js','data.js','cards.json','assets','docs']) {
   fs.cpSync(path.join(root, name), path.join(dest, name), { recursive: true });
 }
