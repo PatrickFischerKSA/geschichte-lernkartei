@@ -114,7 +114,7 @@
     $('prev').disabled = index === 0; $('next').disabled = index === total - 1;
     document.querySelector('.card-nav').hidden = !!round;
     document.querySelector('.keyboard').textContent = round ? 'LEERTASTE wenden · 1 noch üben · 2 gewusst' : 'LEERTASTE wenden · ← → blättern · 1 noch üben · 2 gewusst';
-    window.OralAnswer.setAvailable(true);
+    window.OralAnswer.setAvailable(true, c);
     setFlip(false);
     if (!$('study-view').hidden) window.QuestionReader.setQuestion(c.question);
   }

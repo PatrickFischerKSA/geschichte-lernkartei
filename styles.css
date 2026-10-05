@@ -31,3 +31,5 @@
 .audio-panel{border:1px solid var(--line);border-radius:12px;padding:18px;margin-bottom:20px}.audio-panel h2{font-size:18px;margin:0 0 12px}.audio-controls{display:flex;flex-wrap:wrap;align-items:center;gap:8px}.audio-controls button{font-size:14px}.audio-controls label{display:flex;align-items:center;gap:8px;font-size:14px}.audio-controls select{width:auto;margin:0}.audio-controls [aria-pressed="true"]{background:var(--green);color:white}.audio-panel p{font-size:14px;line-height:1.5;margin:12px 0 6px}.audio-panel small{display:block;font-size:12px;line-height:1.5;color:var(--muted)}
 
 .oral-panel{margin-top:18px}.oral-panel textarea{display:block;width:100%;box-sizing:border-box;font:inherit;line-height:1.6;padding:12px;border:1px solid var(--line);border-radius:8px;background:var(--white);color:var(--ink);resize:vertical}.oral-panel label{display:block;font-size:14px;margin-bottom:8px}
+
+.oral-interim{font-style:italic;color:var(--muted)}#oral-result{border-left:3px solid var(--green);padding:4px 12px;margin-top:12px;background:#edf2df}#oral-result p{overflow-wrap:anywhere}

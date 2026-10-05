@@ -10,6 +10,8 @@
   <script defer src="data.js"></script>
   <script defer src="learning.js"></script>
   <script defer src="speech.js"></script>
+  <script defer src="concepts.js"></script>
+  <script defer src="answer-check.js"></script>
   <script defer src="oral.js"></script>
   <script defer src="app.js"></script>
 </head>
@@ -57,11 +59,14 @@
             <section class="audio-panel oral-panel" aria-labelledby="oral-title">
               <h2 id="oral-title">Deine Antwort – sprechen oder tippen</h2>
               <p>Die Spracherkennung deines Browsers kann Audio an einen externen Sprachdienst senden und Internet benötigen. Sie startet nur per Klick mit deiner Mikrofonfreigabe.</p>
+              <label for="oral-language">Erkennungssprache</label><select id="oral-language"><option value="de-DE">Deutsch</option><option value="de-CH">Deutsch (Schweiz)</option></select>
               <div class="audio-controls"><button id="oral-start">Mündlich antworten</button><button id="oral-stop" disabled>Aufnahme beenden</button></div>
               <p id="oral-status" role="status" aria-live="polite"></p>
+              <p id="oral-interim" class="oral-interim" hidden></p><div id="oral-alternatives" hidden><label for="oral-choice">Alternative für den zuletzt erkannten Abschnitt</label><select id="oral-choice"></select></div>
               <label for="oral-text">Deine Antwort</label><textarea id="oral-text" rows="4" placeholder="Hier erscheint deine gesprochene Antwort. Du kannst auch tippen."></textarea>
               <button id="oral-clear" class="text-button">Antwort löschen</button>
-              <small>Keine automatische Bewertung. Text mit der Modellantwort vergleichen. Beim Kartenwechsel wird dein Antworttext gelöscht; die App speichert ihn nicht.</small>
+              <button id="oral-check">Begriffe abgleichen</button><div id="oral-result" role="status" hidden></div>
+              <small>Der Begriffsabgleich erkennt hinterlegte Synonyme, prüft aber keine vollständige Aussage auf Richtigkeit. Keine automatische Bewertung. Text mit der Modellantwort vergleichen. Beim Kartenwechsel wird dein Antworttext gelöscht; die App speichert ihn nicht.</small>
             </section>
             <button id="flip" class="flip-button" aria-controls="card" aria-expanded="false">Antwort aufdecken <span aria-hidden="true">↻</span></button>
             <div class="rating" id="rating" hidden><button id="again">↺ Noch üben</button><button id="known">✓ Gewusst</button></div>
