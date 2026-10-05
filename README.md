@@ -92,3 +92,9 @@ Die Auswahl über dem Lernmodus baut aufeinander auf:
 Jede Karte ist redaktionell einem Mindestniveau (`level` in `cards.json`) zugeordnet. Das ist eine didaktische Einteilung, keine offizielle Prüfungsstufe. Die Modellantworten und Quellenbelege bleiben vollständig. Die Auswahl gilt für freies Lernen, Spielrunde und Repetition und wird im Browser gespeichert. Während einer Runde ist das Niveau gesperrt; nach dem Beenden kann es gewechselt werden. Lernstand und Wiederholungstermine gelten gemeinsam für alle Niveaus. «Alle Karten anzeigen» und der Einstieg über ein Lernziel wählen Profi, damit keine zugehörige Karte ausgeblendet wird.
 
 `tests/levels-browser.cjs` prüft Niveau-Auswahl, Speicherung, Spielrunden, fällige Karten und die mobile Darstellung.
+
+## Hörvariante
+
+Mit `?vorlesen=1` lässt sich die Hörvariante direkt verlinken. «Vorlesemodus starten» aktiviert nach einem bewussten Klick das automatische Vorlesen jeder neuen Frage. «Frage vorlesen» wiederholt die aktuelle Frage, «Stoppen» beendet die laufende Ausgabe. Das Tempo ist einstellbar. Beim Aufdecken der Antwort, Wechsel zu einer Übersicht oder Verlassen des Tabs stoppt die Ausgabe. Nach Neuladen muss der Modus erneut gestartet werden. Antworten werden nie gesprochen und der Lernstand bleibt derselbe.
+
+Die Sprachausgabe nutzt die [Web Speech API](https://developer.mozilla.org/en-US/docs/Web/API/SpeechSynthesis) mit einer verfügbaren deutschen Stimme (bevorzugt de-CH). Stimme, Audioausgabe und gegebenenfalls Netzwerkbedarf hängen von Browser und Betriebssystem ab. Ohne Unterstützung bleiben die Karten lesbar und bedienbar. `tests/speech-browser.cjs` prüft die Steuerung mit simulierten Stimmen; die tatsächliche Aussprache ist geräteabhängig.

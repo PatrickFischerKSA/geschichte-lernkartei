@@ -1,4 +1,4 @@
-/* No network calls: content and learning progress stay in this browser. */
+/* Static card data and browser-local progress; speech is handled in speech.js. */
 (() => {
   'use strict';
   const { cards, goals, sources } = window.LEARNING_DATA;
@@ -67,6 +67,7 @@
     $('card').style.height = `${face.scrollHeight}px`;
   }
   function setFlip(value) {
+    if (value) window.QuestionReader.stop();
     flipped = value;
     $('card').classList.toggle('flipped', value);
     $('front').inert = value; $('front').setAttribute('aria-hidden', String(value));
@@ -77,6 +78,7 @@
     resizeCard();
   }
   function render() {
+    window.QuestionReader.setQuestion(null);
     updateGameUI();
     if (playMode !== 'free' && (!round || !round.queue.length)) {
       $('empty').hidden = true; $('card-region').hidden = true;
@@ -112,6 +114,7 @@
     document.querySelector('.card-nav').hidden = !!round;
     document.querySelector('.keyboard').textContent = round ? 'LEERTASTE wenden · 1 noch üben · 2 gewusst' : 'LEERTASTE wenden · ← → blättern · 1 noch üben · 2 gewusst';
     setFlip(false);
+    if (!$('study-view').hidden) window.QuestionReader.setQuestion(c.question);
   }
   function refresh() {
     selection = round?.queue.length ? round.queue.map(id => cards.find(c => c.id === id)) : filtered();
@@ -205,10 +208,11 @@
   }
   function resetFilters() { setLevel('profi'); topic = 'all'; $('search').value = ''; $('mode').value = 'all'; $('goal-filter').value = 'all'; index = 0; }
   function switchView(showGoals) {
+    window.QuestionReader.stop();
     $('study-view').hidden = showGoals; $('goals-view').hidden = !showGoals;
     $('study-tab').classList.toggle('active', !showGoals); $('study-tab').setAttribute('aria-pressed', String(!showGoals));
     $('goals-tab').classList.toggle('active', showGoals); $('goals-tab').setAttribute('aria-pressed', String(showGoals));
-    if (!showGoals) requestAnimationFrame(resizeCard);
+    if (!showGoals) { render(); requestAnimationFrame(resizeCard); }
     window.scrollTo({top:0, behavior:'instant'});
   }
   document.querySelectorAll('[data-level]').forEach(b => b.addEventListener('click', () => setLevel(b.dataset.level)));
