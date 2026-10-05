@@ -4,13 +4,14 @@
   const $ = id => document.getElementById(id);
   const supported = 'speechSynthesis' in window && 'SpeechSynthesisUtterance' in window;
   const synth = supported ? window.speechSynthesis : null;
-  let question = '', enabled = false, current = null;
+  let question = '', enabled = false, current = null, heard = false;
   const ready = 'Frage vorlesen oder den Vorlesemodus starten. Die Antwort bleibt verdeckt.';
   function controls() {
     $('audio-toggle').disabled = !supported;
     $('audio-toggle').setAttribute('aria-pressed', String(enabled));
     $('audio-toggle').textContent = enabled ? 'Vorlesemodus ausschalten' : 'Vorlesemodus starten';
     $('audio-read').disabled = !supported || !question;
+    $('audio-read').textContent = heard ? 'Noch einmal hören' : 'Frage vorlesen';
     $('audio-stop').disabled = !current;
     $('audio-rate').disabled = !supported;
   }
@@ -30,12 +31,13 @@
     if (voice) utterance.voice = voice;
     utterance.rate = Number($('audio-rate').value);
     current = utterance;
+    heard = true;
     $('audio-status').textContent = 'Frage wird vorgelesen …';
-    utterance.onend = () => { if (current === utterance) { current = null; $('audio-status').textContent = 'Jetzt selbst antworten. Danach die Karte wenden.'; controls(); } };
+    utterance.onend = () => { if (current === utterance) { current = null; $('audio-status').textContent = 'Mit «Noch einmal hören» kannst du die Frage wiederholen. Danach selbst antworten und die Karte wenden.'; controls(); } };
     utterance.onerror = () => {
       if (current !== utterance) return;
       current = null; enabled = false; controls();
-      $('audio-status').textContent = 'Vorlesen nicht möglich. Prüfe die Sprachausgabe deines Geräts und versuche «Frage vorlesen» erneut.';
+      $('audio-status').textContent = 'Vorlesen nicht möglich. Prüfe die Sprachausgabe deines Geräts und klicke erneut auf die Vorleseschaltfläche.';
     };
     controls();
     try { synth.speak(utterance); } catch { utterance.onerror(); }
@@ -50,7 +52,7 @@
   document.addEventListener('visibilitychange', () => { if (document.hidden) stop(); });
   window.addEventListener('pagehide', stop);
   window.QuestionReader = {
-    setQuestion(text) { stop(); question = text || ''; controls(); if (enabled) read(); },
+    setQuestion(text) { stop(); question = text || ''; heard = false; controls(); if (enabled) read(); },
     stop
   };
   if (new URLSearchParams(location.search).get('vorlesen') === '1') {

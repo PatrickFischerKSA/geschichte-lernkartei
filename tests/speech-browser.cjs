@@ -34,6 +34,19 @@ const path=require('node:path');
  assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
  require('node:fs').mkdirSync('test-results',{recursive:true});await page.screenshot({path:'test-results/speech-mobile.png',fullPage:true});
  await page.reload();assert.equal(await page.evaluate(()=>spoken.length),0);
+ await page.locator('#audio-read').click();
+ assert.equal(await page.locator('#audio-read').innerText(),'Noch einmal hören');
+ const repeatedQuestion=await page.locator('#question').innerText();
+ for(let i=0;i<3;i++){
+  await page.evaluate(()=>lastUtterance.onend());
+  await page.locator('#audio-read').click();
+  assert.equal(await page.evaluate(()=>spoken.at(-1).text),repeatedQuestion);
+  assert.equal(await page.locator('#question').innerText(),repeatedQuestion);
+  assert.equal(await page.locator('#flip').getAttribute('aria-expanded'),'false');
+ }
+ assert.equal(await page.evaluate(()=>spoken.length),4);
+ await page.locator('#audio-read').click();assert.equal(await page.evaluate(()=>spoken.length),5);
+ await page.locator('#next').click();assert.equal(await page.locator('#audio-read').innerText(),'Frage vorlesen');
  const fallback=await browser.newPage();await fallback.addInitScript(()=>{delete window.speechSynthesis;delete window.SpeechSynthesisUtterance;});
  await fallback.goto(url);assert.equal(await fallback.locator('#audio-toggle').isDisabled(),true);assert.match(await fallback.locator('#audio-status').innerText(),/unterstützt.*nicht/);
  await fallback.locator('#flip').click();assert.equal(await fallback.locator('#flip').getAttribute('aria-expanded'),'true');
